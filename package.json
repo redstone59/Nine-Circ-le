@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.14.11"
+  },
+  "dependencies": {
+    "gj-boomlings-api": "^2.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
