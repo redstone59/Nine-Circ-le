@@ -12,4 +12,4 @@ todo
 
 todo
 
-**Note**: this repository uses a [fork of the gj-boomings-api](https://github.com/redstone59/gj-boomlings-api) module.
+**Note**: this repository uses a [fork of the gj-boomlings-api](https://github.com/redstone59/gj-boomlings-api) module.
