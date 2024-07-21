@@ -71,7 +71,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
                 ][int(response_dict["9"])]
             except IndexError:
                 # Find difficulty from star rating. If this fails on a level i will cry into a pillow
-                difficulty = ["Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", "Hard Demon"][int(response_dict["3"])]
+                difficulty = ["Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", "Hard Demon"][int(response_dict["18"])]
         
         file.write("        " + f"difficulty: '{difficulty}',\n")
         file.write("        " + f"stars: {response_dict["18"]},\n")
