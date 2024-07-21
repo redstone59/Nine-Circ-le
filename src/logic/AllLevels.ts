@@ -1,5 +1,6 @@
-import { Colour } from "./NineCirclesLevel.js";
-const allLevels = [
+import { NineCirclesLevel, Colour } from "./NineCirclesLevel.js";
+
+const allLevels: NineCirclesLevel[] = [
     {
         // Nine Circles
         levelId: 4284013,
@@ -1380,7 +1381,8 @@ const allLevels = [
         verifier: null,
     },
 ];
-const nameToIdObj = {
+
+const nameToIdObj: object = {
     "Nine Circles": 79188336,
     "Fairydust": 5310094,
     "The Realistic": 6664095,
@@ -1574,5 +1576,6 @@ const nameToIdObj = {
     "messiers Twin B": 103370684,
     "absolute NINE CIRCLE": 106040563,
     "absolute JAWBREAKER": 106237782,
-};
-export { allLevels, nameToIdObj };
+}
+
+export { allLevels, nameToIdObj }
