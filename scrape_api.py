@@ -26,6 +26,9 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
                                 headers = {"user-agent": ""}
                                 ).text
         
+        if response == "error code: 1015":
+            raise Exception("Rate limited (womp womp) :(")
+        
         response = response.split(":")
         response = [f"{response[i]}:{response[i + 1]}" for i in range(0, len(response), 2)]
         response_dict = {}
