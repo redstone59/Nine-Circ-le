@@ -1,6 +1,7 @@
 import requests, time, base64
 
-SCRAPE_TIMEOUT = 5
+SCRAPE_TIMEOUT = 10
+DOT_COUNT = 3
 
 with open("level_list.txt") as file:
     spreadsheet = file.read()
@@ -8,9 +9,10 @@ with open("level_list.txt") as file:
 columns = spreadsheet.split("\n")
 COLUMN_NAMES = ["name", "release_version", "colour_1", "colour_2", "screenshot", "level_id", "verifier", "creators"]
 
-with open("./src/logic/FakeAPIInformation2.ts", "w") as file:
+i = 0
+with open("./src/logic/FakeAPIInformation.ts", "w") as file:
     file.write('import { APIInformation, Rating, Length } from "./NineCirclesLevel";\n\n')
-    file.write('const downloadedAPIInfo: APIInformation[] = [\n')
+    file.write('const downloadedAPIInfo: {[key: number]: APIInfomation}} = [\n')
     
     for column in columns:
         entries = column.split("\t")
@@ -34,11 +36,11 @@ with open("./src/logic/FakeAPIInformation2.ts", "w") as file:
         
         # Keys from https://wyliemaster.github.io/gddocs/#/resources/server/level
         
-        file.write("    {\n")
-        file.write("        " + f"name: '{response_dict["2"]}',\n")
+        file.write("    " + level_data["level_id"] + ": {\n")
+        file.write("        " + f"name: `{response_dict["2"]}`,\n")
         
         padding = "=" * (-len(response_dict["3"]) % 4)
-        file.write("        " + f"description: '{base64.b64decode(response_dict["3"] + padding, "-_").decode()}',\n")
+        file.write("        " + f"description: `{base64.b64decode(response_dict["3"] + padding, "-_").decode().replace("`", "\\`")}`,\n")
         
         if response_dict["17"] == "1":
             difficulty = [
@@ -69,16 +71,25 @@ with open("./src/logic/FakeAPIInformation2.ts", "w") as file:
         file.write("        " + f"likes: {response_dict["14"]},\n")
         file.write("        " + f"objectCount: {response_dict["45"]},\n")
         
-        if response_dict["42"] != 0:
+        if response_dict["42"] != "0":
             rating = [None, "Epic", "Legendary", "Mythic"][int(response_dict["42"])]
         else:
             rating = "Rate" if response_dict["19"] == 0 else "Feature"
         
+        if rating == None:
+            print(response_dict["42"], response_dict["19"], rating)
+            raise Exception("what the FUCK")
         
         file.write("        " + f"ratingType: '{rating}' as Rating\n")
         file.write("    },\n")
         
-        print(f"Wrote {response_dict["2"]}")
-        time.sleep(SCRAPE_TIMEOUT)
+        print(f"Wrote {response_dict["2"]} ({i} / {len(columns)})", end = "", flush = True)
+        i += 1
+        
+        for j in range (DOT_COUNT):
+            time.sleep(SCRAPE_TIMEOUT / DOT_COUNT)
+            print(".", end = "", flush = True)
+        
+        print("\n", end = "", flush = True)
     
     file.write("]\n\nexport { downloadedAPIInfo }")
