@@ -58,14 +58,18 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         elif response_dict["25"] == "1":
             difficulty = "Auto"
         else:
-            difficulty = [
-                "N/A",
-                "Easy",
-                "Normal",
-                "Hard",
-                "Harder",
-                "Insane"
-            ][int(response_dict["9"])]
+            try:
+                difficulty = [
+                    "N/A",
+                    "Easy",
+                    "Normal",
+                    "Hard",
+                    "Harder",
+                    "Insane"
+                ][int(response_dict["9"])]
+            except IndexError:
+                print(level_data["name"], "had invalid difficulty '" + response_dict["9"] + "'.")
+                difficulty = "N/A"
         
         file.write("        " + f"difficulty: '{difficulty}',\n")
         file.write("        " + f"stars: {response_dict["18"]},\n")
