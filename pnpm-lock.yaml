@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       gj-boomlings-api:
-        specifier: ^2.0.1
-        version: 2.0.1
+        specifier: github:redstone59/gj-boomlings-api
+        version: https://codeload.github.com/redstone59/gj-boomlings-api/tar.gz/c5f79dd28c984113b847701e8a9ed0c330462f1d
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -750,8 +750,9 @@ packages:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
     engines: {node: '>=6.9.0'}
 
-  gj-boomlings-api@2.0.1:
-    resolution: {integrity: sha512-omDllMkepLxfTwoLFuc3QBUdfqZh4DV4PiUqN2pMN5SdSpVV+dxE2dUUwbQE2eNefJGFwCkRLypLnjRnXoNE3w==}
+  gj-boomlings-api@https://codeload.github.com/redstone59/gj-boomlings-api/tar.gz/c5f79dd28c984113b847701e8a9ed0c330462f1d:
+    resolution: {tarball: https://codeload.github.com/redstone59/gj-boomlings-api/tar.gz/c5f79dd28c984113b847701e8a9ed0c330462f1d}
+    version: 2.0.0
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -1860,7 +1861,7 @@ snapshots:
 
   gensync@1.0.0-beta.2: {}
 
-  gj-boomlings-api@2.0.1:
+  gj-boomlings-api@https://codeload.github.com/redstone59/gj-boomlings-api/tar.gz/c5f79dd28c984113b847701e8a9ed0c330462f1d:
     dependencies:
       node-fetch: 2.7.0
     transitivePeerDependencies:
