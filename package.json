@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gj-boomlings-api": "^2.0.1",
+    "gj-boomlings-api": "github:redstone59/gj-boomlings-api",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
