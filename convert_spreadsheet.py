@@ -8,7 +8,7 @@ with open("level_list.txt") as file:
 columns = spreadsheet.split("\n")
 COLUMN_NAMES = ["name", "release_version", "colour_1", "colour_2", "screenshot", "level_id", "verifier", "creators"]
 
-with open("AllLevels.ts", "w") as output:
+with open("./src/logic/AllLevels.ts", "w") as output:
     level_name_dict = {}
     output.write('import { NineCirclesLevel, Colour } from "./NineCirclesLevel";\n\n')
     output.write("const allLevels: NineCirclesLevel[] = [\n")

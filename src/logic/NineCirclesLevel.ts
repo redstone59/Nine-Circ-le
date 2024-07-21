@@ -20,6 +20,7 @@ enum Colour {
 }
 
 const difficultyRanks: string[] = [
+  "Auto",
   "Easy",
   "Normal",
   "Hard",
@@ -34,16 +35,19 @@ const difficultyRanks: string[] = [
 
 const lengthRanks: string[] = ["Short", "Medium", "Long", "XL"];
 
+type Length = "Short" | "Medium" | "Long" | "XL";
+type Rating = "Rate" | "Feature" | "Epic" | "Legendary" | "Mythic";
+
 type APIInformation = {
   name: string;
   description: string;
   difficulty: string;
   stars: number;
-  length: string; // "Short" | "Medium" | "Long" | "XL";
+  length: Length;
   downloads: number;
   likes: number;
   objectCount: number;
-  ratingType: string; // "Rate" | "Feature" | "Epic" | "Legendary" | "Mythic";
+  ratingType: Rating;
 };
 
 type NineCirclesLevel = {
@@ -61,4 +65,6 @@ export {
   lengthRanks,
   type APIInformation,
   type NineCirclesLevel,
+  type Length,
+  type Rating
 };
