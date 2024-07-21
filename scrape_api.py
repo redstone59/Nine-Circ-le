@@ -9,7 +9,7 @@ with open("level_list.txt") as file:
 columns = spreadsheet.split("\n")
 COLUMN_NAMES = ["name", "release_version", "colour_1", "colour_2", "screenshot", "level_id", "verifier", "creators"]
 
-i = 0
+i = 1
 with open("./src/logic/FakeAPIInformation.ts", "w") as file:
     file.write('import { APIInformation, Rating, Length } from "./NineCirclesLevel";\n\n')
     file.write('const downloadedAPIInfo: {[key: string]: APIInformation} = [\n')
@@ -36,6 +36,8 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         for item in response:
             key, value = item.split(":")
             response_dict[key] = value
+        
+        if response_dict["18"] == "0": continue # Skip unrated levels
         
         # Keys from https://wyliemaster.github.io/gddocs/#/resources/server/level
         
@@ -68,8 +70,8 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
                     "Insane"
                 ][int(response_dict["9"])]
             except IndexError:
-                print(level_data["name"], "had invalid difficulty '" + response_dict["9"] + "'.")
-                difficulty = "N/A"
+                # Find difficulty from star rating. If this fails on a level i will cry into a pillow
+                difficulty = ["Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", "Hard Demon"][int(response_dict["3"])]
         
         file.write("        " + f"difficulty: '{difficulty}',\n")
         file.write("        " + f"stars: {response_dict["18"]},\n")
