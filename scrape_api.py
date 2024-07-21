@@ -12,7 +12,7 @@ COLUMN_NAMES = ["name", "release_version", "colour_1", "colour_2", "screenshot",
 i = 1
 with open("./src/logic/FakeAPIInformation.ts", "w") as file:
     file.write('import { APIInformation, Rating, Length } from "./NineCirclesLevel";\n\n')
-    file.write('const downloadedAPIInfo: {[key: string]: APIInformation} = [\n')
+    file.write('const downloadedAPIInfo: {[key: string]: APIInformation} = {\n')
     
     for column in columns:
         entries = column.split("\t")
@@ -101,4 +101,4 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         
         print("\n", end = "", flush = True)
     
-    file.write("]\n\nexport { downloadedAPIInfo }")
+    file.write("}\n\nexport { downloadedAPIInfo }")
