@@ -1,6 +1,6 @@
 import { APIInformation, Rating, Length } from "./NineCirclesLevel";
 
-const downloadedAPIInfo: {[key: number]: APIInfomation}} = [
+const downloadedAPIInfo: {[key: number]: APIInfomation} = [
     4284013: {
         name: `Nine Circles`,
         description: `Easy`,

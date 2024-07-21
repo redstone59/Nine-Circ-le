@@ -12,7 +12,7 @@ COLUMN_NAMES = ["name", "release_version", "colour_1", "colour_2", "screenshot",
 i = 0
 with open("./src/logic/FakeAPIInformation.ts", "w") as file:
     file.write('import { APIInformation, Rating, Length } from "./NineCirclesLevel";\n\n')
-    file.write('const downloadedAPIInfo: {[key: number]: APIInfomation}} = [\n')
+    file.write('const downloadedAPIInfo: {[key: string]: APIInformation} = [\n')
     
     for column in columns:
         entries = column.split("\t")
@@ -36,7 +36,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         
         # Keys from https://wyliemaster.github.io/gddocs/#/resources/server/level
         
-        file.write("    " + level_data["level_id"] + ": {\n")
+        file.write("     '" + level_data["level_id"] + "': {\n")
         file.write("        " + f"name: `{response_dict["2"]}`,\n")
         
         padding = "=" * (-len(response_dict["3"]) % 4)
