@@ -12,26 +12,24 @@ with open("./src/logic/AllLevels.ts", "w") as output:
     level_name_dict = {}
     output.write("// Generated with `convert_spreadsheet.py`. Please don't modify this file directly!\n\n")
     output.write('import { NineCirclesLevel, Colour } from "./NineCirclesLevel";\n\n')
-    output.write("const allLevels: NineCirclesLevel[] = [\n")
+    output.write("const allLevels: {[key: string]: NineCirclesLevel} = {\n")
     
     for column in columns:
         entries = column.split("\t")
         level_data = dict(zip(COLUMN_NAMES, entries))
         level_data["creators"] = level_data["creators"].split(" + ")
         
-        output.write("    {\n")
-        output.write("        " + f"// {level_data["name"]}\n")
-        output.write("        levelId: " + f"{level_data["level_id"]},\n")
-        output.write("        colourScheme: " + f"[Colour.{colour(level_data["colour_1"])}, Colour.{colour(level_data["colour_2"])}],\n")
+        output.write("    '" + level_data["level_id"] + "': {" + f"  // {level_data['name']}\n")
+        output.write("        colourScheme: " + f"[Colour.{colour(level_data['colour_1'])}, Colour.{colour(level_data['colour_2'])}],\n")
         output.write("        creators: " + str(level_data["creators"]) + ",\n")
-        output.write("        verifier: " + (f"'{level_data["verifier"]}'" if level_data["verifier"] != "" else "null") + ",\n")
+        output.write("        verifier: " + (f"'{level_data['verifier']}'" if level_data['verifier'] != '' else 'null') + ",\n")
         output.write("    },\n")
         
         level_name_dict[level_data["name"]] = level_data["level_id"]
     
-    output.write("];\n\n")
+    output.write("};\n\n")
     
-    output.write('const nameToIdObj: object = {\n')
+    output.write('const nameToIdObj: {[key: string]: number} = {\n')
 
     for key in level_name_dict:
         output.write(f'    "{key}": {level_name_dict[key]},\n')
