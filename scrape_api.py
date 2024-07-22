@@ -25,7 +25,11 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
                                     "secret": "Wmfd2893gb7"
                                     }, 
                                 headers = {"user-agent": ""}
-                                ).text
+                                )
+        if not response.ok:
+            raise Exception(f"Response returned status code of {response.status_code}: {response.text}")
+        
+        response = response.text
         
         if response == "error code: 1015":
             raise Exception("Rate limited (womp womp) :(")
