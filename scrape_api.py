@@ -78,7 +78,9 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         
         file.write("        " + f"difficulty: '{difficulty}',\n")
         file.write("        " + f"stars: {response_dict["18"]},\n")
-        file.write("        " + f"length: '{["Tiny", "Medium", "Long", "XL", "Platformer"][int(response_dict["15"])]}' as Length,\n")
+
+        if response_dict["15"] == "0": raise Exception(f"Invalid length 0 for level {level_data["name"]}")
+        file.write("        " + f"length: '{[None, "Tiny", "Medium", "Long", "XL", "Platformer"][int(response_dict["15"])]}' as Length,\n")
         file.write("        " + f"downloads: {response_dict["10"]},\n")
         file.write("        " + f"likes: {response_dict["14"]},\n")
         file.write("        " + f"objectCount: {response_dict["45"]},\n")
