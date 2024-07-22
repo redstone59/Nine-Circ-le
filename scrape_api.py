@@ -72,7 +72,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
                 ][int(response_dict["9"])]
             except IndexError:
                 # Find difficulty from star rating. If this fails on a level i will cry into a pillow
-                difficulty = ["Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", None][int(response_dict["18"])]
+                difficulty = [None, "Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", None][int(response_dict["18"])]
 
         if difficulty == None: raise Exception(f"Difficulty set to None on level {level_data["name"]}, with {response_dict["18"]} stars, and {"not" if response_dict["17"] != "1" else ""} a demon level.")
         
