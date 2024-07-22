@@ -46,7 +46,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         
         # Keys from https://wyliemaster.github.io/gddocs/#/resources/server/level
         
-        file.write("     '" + level_data["level_id"] + "': {\n")
+        file.write("    '" + level_data["level_id"] + "': {\n")
         file.write("        " + f"name: `{response_dict["2"]}`,\n")
         
         padding = "=" * (-len(response_dict["3"]) % 4)
