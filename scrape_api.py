@@ -47,7 +47,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         padding = "=" * (-len(response_dict["3"]) % 4)
         file.write("        " + f"description: `{base64.b64decode(response_dict["3"] + padding, "-_").decode().replace("`", "\\`")}`,\n")
         
-        if response_dict["17"] == "1":
+        if response_dict["17"] == "1" and response_dict["18"] == "10": # Check if the level is a demon
             difficulty = [
                 "Hard Demon", 
                 None, 
@@ -71,7 +71,9 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
                 ][int(response_dict["9"])]
             except IndexError:
                 # Find difficulty from star rating. If this fails on a level i will cry into a pillow
-                difficulty = ["Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", "Hard Demon"][int(response_dict["18"])]
+                difficulty = ["Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", None][int(response_dict["18"])]
+
+        if difficulty == None: raise Exception(f"Difficulty set to None on level {level_data["name"]}, with {response_dict["18"]} stars, and {"not" if response_dict["17"] != "1" else ""} a demon level.")
         
         file.write("        " + f"difficulty: '{difficulty}',\n")
         file.write("        " + f"stars: {response_dict["18"]},\n")
