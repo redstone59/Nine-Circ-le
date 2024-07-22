@@ -52,7 +52,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         padding = "=" * (-len(response_dict["3"]) % 4)
         file.write("        " + f"description: `{base64.b64decode(response_dict["3"] + padding, "-_").decode().replace("`", "\\`")}`,\n")
         
-        if response_dict["17"] == "1" and response_dict["18"] == "10": # Check if the level is a demon
+        if response_dict["17"] == "1": # Check if the level is a demon
             difficulty = [
                 "Hard Demon", 
                 None, 
@@ -76,7 +76,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
                 ][int(response_dict["9"])]
             except IndexError:
                 # Find difficulty from star rating. If this fails on a level i will cry into a pillow
-                difficulty = [None, "Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", None][int(response_dict["18"])]
+                difficulty = ["Auto", "Easy", "Normal", "Hard", "Hard", "Harder", "Harder", "Insane", "Insane", None][int(response_dict["18"]) - 1]
 
         if difficulty == None: raise Exception(f"Difficulty set to None on level {level_data["name"]}, with {response_dict["18"]} stars, and {"not" if response_dict["17"] != "1" else ""} a demon level.")
         
@@ -84,13 +84,13 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         file.write("        " + f"stars: {response_dict["18"]},\n")
 
         if response_dict["15"] == "0": raise Exception(f"Invalid length 0 for level {level_data["name"]}")
-        file.write("        " + f"length: '{[None, "Tiny", "Medium", "Long", "XL", "Platformer"][int(response_dict["15"])]}' as Length,\n")
+        file.write("        " + f"length: '{["Tiny", "Medium", "Long", "XL", "Platformer"][int(response_dict["15"]) - 1]}' as Length,\n")
         file.write("        " + f"downloads: {response_dict["10"]},\n")
         file.write("        " + f"likes: {response_dict["14"]},\n")
         file.write("        " + f"objectCount: {response_dict["45"]},\n")
         
         if response_dict["42"] != "0":
-            rating = [None, "Epic", "Legendary", "Mythic"][int(response_dict["42"])]
+            rating = ["Epic", "Legendary", "Mythic"][int(response_dict["42"]) - 1]
         else:
             rating = "Rate" if response_dict["19"] == 0 else "Feature"
         
