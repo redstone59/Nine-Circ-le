@@ -52,7 +52,6 @@ type APIInformation = {
 
 type NineCirclesLevel = {
   // this like all the shit i cant get from the api
-  levelId: number;
   colourScheme: [Colour, Colour];
   creators: string[]; // yeah i could get this from the API but then collabs dont work and i wanna credit everyone
   verifier: string | null; // null if a seperate verifier couldn't be found
