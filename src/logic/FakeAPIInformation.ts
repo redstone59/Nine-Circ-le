@@ -1,2159 +1,2161 @@
+// Generated with the `scrape_api.py` file. Please don't modify this file directly!
+
 import { APIInformation, Rating, Length } from "./NineCirclesLevel";
 
 const downloadedAPIInfo: {[key: string]: APIInformation} = {
-     '4284013': {
+    '4284013': {
         name: `Nine Circles`,
         description: `Easy`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 55355522,
-        likes: 3007226,
+        length: 'Long' as Length,
+        downloads: 55374351,
+        likes: 3007962,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '5310094': {
+    '5310094': {
         name: `Fairydust`,
         description: `Inspired by Nine Circles by Zobros! Definitely my hardest level, enjoy! Kappa. Pass is 123456!`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 7063168,
-        likes: 393310,
+        length: 'Long' as Length,
+        downloads: 7065335,
+        likes: 393384,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '6664095': {
+    '6664095': {
         name: `The Realistic`,
         description: `Inspire Nine Circles. pass and video is on my youtube channel. error fix and update`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 924006,
-        likes: 92111,
+        length: 'Long' as Length,
+        downloads: 924178,
+        likes: 92122,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '6892453': {
+    '6892453': {
         name: `Figures`,
         description: `I wanted to do nine circles map cause everyone is doing one. dont take it seriously`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1694278,
-        likes: 143195,
+        length: 'Long' as Length,
+        downloads: 1694795,
+        likes: 143218,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '6939821': {
+    '6939821': {
         name: `Jawbreaker`,
         description: `Inspired by Zobros. Harder than nine circles? Demon or I cry`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 11576960,
-        likes: 649738,
+        length: 'Long' as Length,
+        downloads: 11580972,
+        likes: 649853,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '6988264': {
+    '6988264': {
         name: `Astronaut 13`,
         description: `Inspired by Nine Circles, you can call this Shadow Circles. Yeah its stupid, pass on YT vid.`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1289577,
-        likes: 100820,
+        length: 'Long' as Length,
+        downloads: 1289908,
+        likes: 100834,
         objectCount: 13819,
         ratingType: 'Feature' as Rating
     },
-     '6996731': {
+    '6996731': {
         name: `Headrush`,
         description: `What a Rush. Reverified by qcAlex. Reverted.`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 291249,
-        likes: 33221,
+        length: 'Long' as Length,
+        downloads: 291330,
+        likes: 33229,
         objectCount: 12528,
         ratingType: 'Feature' as Rating
     },
-     '7002072': {
+    '7002072': {
         name: `classic`,
         description: `Fixed some bugs.`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 364243,
-        likes: 29882,
+        length: 'Long' as Length,
+        downloads: 364331,
+        likes: 29886,
         objectCount: 9148,
         ratingType: 'Feature' as Rating
     },
-     '7018102': {
+    '7018102': {
         name: `Silhouette`,
         description: `My hardest level yet. Inspired by Nine Circles. Good Luck.`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 442902,
-        likes: 39986,
+        length: 'Long' as Length,
+        downloads: 443098,
+        likes: 39988,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '7054561': {
+    '7054561': {
         name: `Poltergeist`,
         description: `Poltergeist by Andromeda`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 6374953,
-        likes: 331462,
+        length: 'Long' as Length,
+        downloads: 6377760,
+        likes: 331534,
         objectCount: 14871,
         ratingType: 'Feature' as Rating
     },
-     '7116121': {
+    '7116121': {
         name: `Problematic`,
         description: `Inspired by Nine Circles and Fairydust. A fun DEMON stage! Pass on my channel!`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 18788685,
-        likes: 1029234,
+        length: 'Long' as Length,
+        downloads: 18793583,
+        likes: 1029386,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '7203561': {
+    '7203561': {
         name: `Classical`,
         description: `Robtop, thank you so much for the rating!`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 287096,
-        likes: 21852,
+        length: 'Long' as Length,
+        downloads: 287189,
+        likes: 21858,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '7294616': {
+    '7294616': {
         name: `Classical`,
         description: `Fixed some bugs. Video on my YT channel  GmD RayOriens`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 126400,
-        likes: 5615,
+        length: 'Long' as Length,
+        downloads: 126443,
+        likes: 5618,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '7614092': {
+    '7614092': {
         name: `Evil `,
         description: `New update :D Added some deco (like always) And Secret Way removed xd. `,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 217572,
+        length: 'Long' as Length,
+        downloads: 217628,
         likes: 26056,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '7705437': {
+    '7705437': {
         name: `Fear Me`,
         description: `Bluish crispy Nine Circles based map. Password is on my youtube channel (2.0 update ver.3)`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1493460,
-        likes: 139006,
+        length: 'Long' as Length,
+        downloads: 1493840,
+        likes: 139026,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '8147005': {
+    '8147005': {
         name: `Down Bass`,
         description: `Another generic NC level`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 2768415,
-        likes: 127361,
+        length: 'Long' as Length,
+        downloads: 2769219,
+        likes: 127379,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '8418966': {
+    '8418966': {
         name: `fractured circles`,
         description: `i have a version with no bugs but it wont update so sorry its ok if you hate me`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 838432,
-        likes: 81828,
+        length: 'Long' as Length,
+        downloads: 838576,
+        likes: 81837,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '8723596': {
+    '8723596': {
         name: `Sine Wavs`,
         description: `2022 Update (Pls i'm 100% sure it's way better than before)`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 583486,
-        likes: 39479,
+        length: 'Long' as Length,
+        downloads: 583726,
+        likes: 39486,
         objectCount: 14339,
         ratingType: 'Feature' as Rating
     },
-     '9603387': {
+    '9603387': {
         name: `sharp`,
         description: `Very hard player color Nine Circles styled level, good luck :D // UPDATE: buff + coins`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 298660,
+        length: 'Long' as Length,
+        downloads: 298708,
         likes: 19746,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '9608518': {
+    '9608518': {
         name: `Butterfly Effect`,
         description: `I started building this level when "The Realistic" was released, pass is song ID, Thanks RobTop`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 803923,
-        likes: 70401,
+        length: 'Long' as Length,
+        downloads: 804113,
+        likes: 70414,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '9682304': {
+    '9682304': {
         name: `Golden Hope`,
         description: `bugfix :)`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 426391,
-        likes: 34504,
+        length: 'Long' as Length,
+        downloads: 426629,
+        likes: 34509,
         objectCount: 17670,
         ratingType: 'Feature' as Rating
     },
-     '9700312': {
+    '9700312': {
         name: `Crimson Clutter`,
         description: `Oh no, another nine circles level. A dark red one infact. Credits for the name goes to Lumpy. Demon?`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1186783,
-        likes: 75805,
+        length: 'Long' as Length,
+        downloads: 1187182,
+        likes: 75816,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '9864147': {
+    '9864147': {
         name: `Space Circles`,
         description: `Updated Version - Video & Password on My YouTube channel:   Geometry Dash Suomi`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1166975,
-        likes: 94370,
+        length: 'Long' as Length,
+        downloads: 1167274,
+        likes: 94386,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '10197026': {
+    '10197026': {
         name: `Paracosm Circles`,
         description: `Have Fun! password on Leksitoo channel!`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'Long' as Length,
-        downloads: 5690516,
-        likes: 274807,
+        length: 'Medium' as Length,
+        downloads: 5691994,
+        likes: 274852,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '10312917': {
+    '10312917': {
         name: `Sharp Minor`,
         description: `Sharp minor  aka Golden circles... Collab with ASonicMen... Demon?`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 455164,
-        likes: 36972,
+        length: 'Long' as Length,
+        downloads: 455517,
+        likes: 37004,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '10789222': {
+    '10789222': {
         name: `Catastrophic`,
         description: `The debt has been repaid. Bugs fixed, password enabled and coins added. I'm sorry that it took this long. Thank you for believing.`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 215191,
-        likes: 14950,
+        length: 'Long' as Length,
+        downloads: 215257,
+        likes: 14953,
         objectCount: 18895,
         ratingType: 'Feature' as Rating
     },
-     '10807587': {
+    '10807587': {
         name: `Sweet Dreams`,
         description: `Wow. GHS beat it.. whos next..now? >:) Free copy. `,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 223671,
-        likes: 18535,
+        length: 'Long' as Length,
+        downloads: 223732,
+        likes: 18536,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '10890011': {
+    '10890011': {
         name: `Windy Circles`,
         description: `Inspired by Nine Circles and JawBreaker. Difficulty Up and Reupload.`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 628038,
-        likes: 34838,
+        length: 'Long' as Length,
+        downloads: 628246,
+        likes: 34835,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '10972106': {
+    '10972106': {
         name: `Solar Circles`,
         description: `ITS FINALLY HERE !!`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 310257,
-        likes: 34946,
+        length: 'Long' as Length,
+        downloads: 310437,
+        likes: 34955,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '11346695': {
+    '11346695': {
         name: `Planet Circles`,
         description: `The Final Chapter. `,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 151044,
-        likes: 11019,
+        length: 'Long' as Length,
+        downloads: 151092,
+        likes: 11021,
         objectCount: 16442,
         ratingType: 'Feature' as Rating
     },
-     '11588490': {
+    '11588490': {
         name: `Ultra Paracosm`,
         description: `El primer "Ultra Circles", mi primer Demon con estrellas y un clasico de GD | v19. LDM en Wave y arreglos menores`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 13146274,
-        likes: 826916,
+        length: 'Long' as Length,
+        downloads: 13150259,
+        likes: 827079,
         objectCount: 21766,
         ratingType: 'Feature' as Rating
     },
-     '12070173': {
+    '12070173': {
         name: `Frozen Jawbreaker`,
         description: `Redeco and better gameplay, deco by Clover LDM = Old Version`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 48865,
+        length: 'Long' as Length,
+        downloads: 48880,
         likes: 3601,
         objectCount: 28829,
         ratingType: 'Feature' as Rating
     },
-     '12073525': {
+    '12073525': {
         name: `Ultra Fairydust`,
         description: `Mucho mas estable que la version anterior, dificultad balanceada, 70% arreglado (Borren el nivel y vuelvanlo a descargar para actualizarlo)`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 717329,
-        likes: 65433,
+        length: 'Long' as Length,
+        downloads: 717487,
+        likes: 65442,
         objectCount: 24418,
         ratingType: 'Feature' as Rating
     },
-     '12423506': {
+    '12423506': {
         name: `Crying Souls`,
         description: `My first 2.0 level! and it ain't easy! plz rate demon! (verifyed by Geomania)`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 437477,
-        likes: 32662,
+        length: 'Long' as Length,
+        downloads: 437595,
+        likes: 32672,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '12568393': {
+    '12568393': {
         name: `Ultra Circles`,
         description: `Visita mi canal Rulasjunior25! -26666 objetos- Ultima "2016 Update", esta vez del Ultra mas dificil >:). Disfruten y gracias totales p=24525`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 711660,
-        likes: 44750,
+        length: 'Long' as Length,
+        downloads: 711854,
+        likes: 44759,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13037894': {
+    '13037894': {
         name: `infinite circles `,
         description: `8)`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 8014778,
-        likes: 464001,
+        length: 'Long' as Length,
+        downloads: 8016832,
+        likes: 464063,
         objectCount: 10648,
         ratingType: 'Feature' as Rating
     },
-     '13114485': {
+    '13114485': {
         name: `infinite circles v2`,
         description: `Harder version of Infinite Circles by Startor.`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 482779,
-        likes: 25518,
+        length: 'Long' as Length,
+        downloads: 482868,
+        likes: 25521,
         objectCount: 18000,
         ratingType: 'Feature' as Rating
     },
-     '13501597': {
+    '13501597': {
         name: `The RealistiK`,
         description: `Demon. My 2nd 2.01 level. Enjoy :)`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 106378,
-        likes: 7610,
+        length: 'Long' as Length,
+        downloads: 106407,
+        likes: 7611,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13530154': {
+    '13530154': {
         name: `Infernity`,
         description: `41800 Objects. GL HF to all of you! Thanks to illuminati6, Frotzn and Xaro! Low Detail activator in the first cube!`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 206584,
-        likes: 22307,
+        length: 'Long' as Length,
+        downloads: 206618,
+        likes: 22308,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13575944': {
+    '13575944': {
         name: `SuperNova`,
         description: ``,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 242364,
+        length: 'Long' as Length,
+        downloads: 242420,
         likes: 15454,
         objectCount: 16156,
         ratingType: 'Feature' as Rating
     },
-     '13641664': {
+    '13641664': {
         name: `Antique Circles`,
         description: `Some tell the tales about the old circles, now it's time for you to tell yours`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 190031,
-        likes: 17928,
+        length: 'Long' as Length,
+        downloads: 190060,
+        likes: 17929,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13703326': {
+    '13703326': {
         name: `Nine Circles XII`,
         description: `Replaced the song since Xtrullor doesn't make songs for GD anymore.`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 3554137,
-        likes: 139672,
+        length: 'Long' as Length,
+        downloads: 3555235,
+        likes: 139697,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13704546': {
+    '13704546': {
         name: `Ultimate Circles`,
         description: `Updated version! Video & Password on my YouTube channel:  Geometry Dash Suomi`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 3216091,
-        likes: 231634,
+        length: 'Long' as Length,
+        downloads: 3216889,
+        likes: 231671,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '14000484': {
+    '14000484': {
         name: `Retro Circles`,
         description: `"Nine Circles" retro. Mi primera joya en mi carrera. Practica bien el nivel y buena suerte.`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 9335517,
-        likes: 619675,
+        length: 'Long' as Length,
+        downloads: 9339119,
+        likes: 619813,
         objectCount: 44824,
         ratingType: 'Feature' as Rating
     },
-     '14019412': {
+    '14019412': {
         name: `Invisible Light`,
         description: ` `,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1122073,
-        likes: 97527,
+        length: 'Long' as Length,
+        downloads: 1122391,
+        likes: 97541,
         objectCount: 20696,
         ratingType: 'Feature' as Rating
     },
-     '14030404': {
+    '14030404': {
         name: `Circulatum`,
         description: `Collab with Xaverious .. Circulatum II Comming soon !! Update Effect at drop and low detail`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 97498,
+        length: 'Long' as Length,
+        downloads: 97520,
         likes: 13421,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '14309230': {
+    '14309230': {
         name: `AnotherCircles`,
         description: `That moment when you realize... A Nine Circles level is now an effect level :O  Verified by Xiodazer!`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 295901,
-        likes: 34922,
+        length: 'Long' as Length,
+        downloads: 295943,
+        likes: 34924,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '14321727': {
+    '14321727': {
         name: `Quasar`,
         description: `Oh yeah! Here it is- a Nine Circles level, Allan style! Ez/medium demon, perhaps? Video and pass on my Youtube channel. GG Quasar! ;3; )/`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 211434,
+        length: 'Long' as Length,
+        downloads: 211484,
         likes: 22259,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '14960319': {
+    '14960319': {
         name: `Paracosm XII`,
         description: `Description [Optional]`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 162588,
-        likes: 11484,
+        length: 'Long' as Length,
+        downloads: 162615,
+        likes: 11485,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '17796070': {
+    '17796070': {
         name: `Blacklight`,
         description: `No hate for making an NC? 8) verified by Maudanik. Over 5k triggers, my masterpiece. Pass is 2255. Only the beginning is hard`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 159953,
-        likes: 15481,
+        length: 'Long' as Length,
+        downloads: 159997,
+        likes: 15482,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '20785077': {
+    '20785077': {
         name: `Astronaut 13`,
         description: `Turquoise Circles! Collab with Complexx, who made Classic! Check out Windy Monster too!`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 43513,
-        likes: 3396,
+        length: 'Long' as Length,
+        downloads: 43530,
+        likes: 3397,
         objectCount: 12040,
         ratingType: 'Feature' as Rating
     },
-     '21306256': {
+    '21306256': {
         name: `Future Circles`,
         description: `Inspired by Nine Circles       -Thanks to everyone for playing this:) especially Koreaqwer and Skitten-`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 549417,
-        likes: 36952,
+        length: 'Long' as Length,
+        downloads: 549606,
+        likes: 36956,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '26245696': {
+    '26245696': {
         name: `Trump Circles`,
         description: `Collab By me, Axxorz, Moufi, Gibbon, Darwin and TiTi. Final pixel art by TiTi too. Well Okay... v2: LDM added`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 4474902,
-        likes: 275463,
+        length: 'Long' as Length,
+        downloads: 4476340,
+        likes: 275513,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '26441161': {
+    '26441161': {
         name: `Flat Major`,
         description: `Fixed some bugs lmfao, and changed somethings`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'Long' as Length,
-        downloads: 843950,
-        likes: 50512,
+        length: 'Medium' as Length,
+        downloads: 844192,
+        likes: 50518,
         objectCount: 28840,
         ratingType: 'Feature' as Rating
     },
-     '26681070': {
+    '26681070': {
         name: `Sonic Wave`,
         description: `Mythical Demon by Cyclic! Video on my YouTube.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 25425658,
-        likes: 829639,
+        length: 'XL' as Length,
+        downloads: 25434488,
+        likes: 829815,
         objectCount: 23157,
         ratingType: 'Feature' as Rating
     },
-     '30380566': {
+    '30380566': {
         name: `Bausha Vortex`,
         description: `videogame level that is hard. beat only if good`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 914878,
-        likes: 52143,
+        length: 'Long' as Length,
+        downloads: 915084,
+        likes: 52148,
         objectCount: 27055,
         ratingType: 'Feature' as Rating
     },
-     '33405303': {
+    '33405303': {
         name: `The Secret Box`,
         description: `Nerfed Back down, so it's more "fun" now`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 762023,
-        likes: 49239,
+        length: 'Long' as Length,
+        downloads: 762189,
+        likes: 49244,
         objectCount: 27238,
         ratingType: 'Feature' as Rating
     },
-     '36099108': {
+    '36099108': {
         name: `pulsar`,
         description: `A collab between me and zhander. Honestly he is an amazing creator took 1575 attempts to verify`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1177137,
-        likes: 151980,
+        length: 'Long' as Length,
+        downloads: 1177517,
+        likes: 151995,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '36522386': {
+    '36522386': {
         name: `Nine CircleX`,
         description: `Zobros asked me to remake and upload his last project, Nine Circles X. Collaboration between me, Rustam and Zobros. Verified by Maxis9.`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 2906801,
-        likes: 128195,
+        length: 'Long' as Length,
+        downloads: 2907661,
+        likes: 128213,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '36831819': {
+    '36831819': {
         name: `Power`,
         description: `The power is wonderful, but sometimes, dangerous. Old collaboration with netrin!`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 59047,
-        likes: 3885,
+        length: 'Long' as Length,
+        downloads: 59064,
+        likes: 3886,
         objectCount: 44742,
         ratingType: 'Feature' as Rating
     },
-     '36886759': {
+    '36886759': {
         name: `Poltergeist Reborn`,
         description: `Poltergeist Reborn made by Pennutoh and verified by me in 20654 attempts.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 249766,
-        likes: 10035,
+        length: 'Long' as Length,
+        downloads: 249904,
+        likes: 10036,
         objectCount: 27556,
         ratingType: 'Feature' as Rating
     },
-     '38765979': {
+    '38765979': {
         name: `Mujigae`,
         description: `Embrace it... Live it... Love it... The spectrum... Dedicated to swithi and chuck. Thanks for supporting. Bugfix #2`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 121539,
-        likes: 5510,
+        length: 'XL' as Length,
+        downloads: 121566,
+        likes: 5511,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '39495014': {
+    '39495014': {
         name: `Despacito Circles`,
         description: `An amazing collab between me, Darwin, and Kips. Thanks to Luqualizer for verification! Might get rated due to the song (Ground Zero).`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 275372,
-        likes: 20185,
+        length: 'Long' as Length,
+        downloads: 275430,
+        likes: 20187,
         objectCount: 30782,
         ratingType: 'Feature' as Rating
     },
-     '41409797': {
+    '41409797': {
         name: `Undergound`,
         description: `Created on the 1.9 GDPS, Hard/Insane NC Demon made by me, fixed some bugs`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 45893,
-        likes: 3084,
+        length: 'Long' as Length,
+        downloads: 45907,
+        likes: 3085,
         objectCount: 30423,
         ratingType: 'Feature' as Rating
     },
-     '42117203': {
+    '42117203': {
         name: `Hyper Paracosm`,
         description: `Update by Joe`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 420550,
-        likes: 26716,
+        length: 'Long' as Length,
+        downloads: 420669,
+        likes: 26718,
         objectCount: 41951,
         ratingType: 'Feature' as Rating
     },
-     '46249401': {
+    '46249401': {
         name: `Abandoned Planet`,
         description: `Extreme NC demon started in 2.0, second half finished in 2.1 to give a more accurate description. crazy it's actully rated, thanks a lot.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 74369,
+        length: 'Long' as Length,
+        downloads: 74399,
         likes: 4153,
         objectCount: 63767,
         ratingType: 'Feature' as Rating
     },
-     '47853491': {
+    '47853491': {
         name: `Tengu Wind`,
         description: `My first bossfight level (and yes it is also a NC level). Thanks for playing.`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 81258,
-        likes: 8756,
+        length: 'Long' as Length,
+        downloads: 81329,
+        likes: 8758,
         objectCount: 39256,
         ratingType: 'Feature' as Rating
     },
-     '48435217': {
+    '48435217': {
         name: `Bakuretsu`,
         description: `Modernistic with nine circle effect :D collab with RehanZ and verified by khayangan.(For Enlex cc 3)`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 36386,
+        length: 'Long' as Length,
+        downloads: 36397,
         likes: 3298,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '49576382': {
+    '49576382': {
         name: `Generic Wave`,
         description: `The only level in the entire game. Verified by Mullsy, collab with Enlex`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 364871,
-        likes: 11671,
+        length: 'XL' as Length,
+        downloads: 365033,
+        likes: 11673,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '49901047': {
+    '49901047': {
         name: `End Line`,
         description: `My first 2.1 map! I don't wanna get featured. I just want to make maps what I want!(like this...) Password is 026000!(Fixed 144hz bug)`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 67391,
-        likes: 6039,
+        length: 'Long' as Length,
+        downloads: 67453,
+        likes: 6047,
         objectCount: 26000,
         ratingType: 'Feature' as Rating
     },
-     '52919433': {
+    '52919433': {
         name: `Arctic Lights`,
         description: `The hardest circles level, created by ViRuZ and Endlevel.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 437848,
-        likes: 17431,
+        length: 'Long' as Length,
+        downloads: 438096,
+        likes: 17435,
         objectCount: 44598,
         ratingType: 'Feature' as Rating
     },
-     '55385816': {
+    '55385816': {
         name: `Balengu Vortex`,
         description: `A remake of Bausha Vortex by Pennutoh. Made by Temp, ItsHybrid, and HJfod.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 164509,
-        likes: 8082,
+        length: 'Long' as Length,
+        downloads: 164563,
+        likes: 8087,
         objectCount: 60000,
         ratingType: 'Feature' as Rating
     },
-     '57395071': {
+    '57395071': {
         name: `Hue Effect`,
         description: `~ Colorful remake of my favorite NC level "Butterfly Effect" by Linco ~ | Dedicated to my Furret Gang & 1.9 nostalgists |`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 636636,
-        likes: 44374,
+        length: 'Long' as Length,
+        downloads: 636749,
+        likes: 44382,
         objectCount: 36963,
         ratingType: 'Feature' as Rating
     },
-     '57410372': {
+    '57410372': {
         name: `Nine Paws`,
         description: `From the old Nine Circles, Nine Paws resurfaces, the new modern NC that will surprise you all. My new MC with epic creators!! LDM ADDED!`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 261969,
-        likes: 16336,
+        length: 'Long' as Length,
+        downloads: 262056,
+        likes: 16342,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '59533451': {
+    '59533451': {
         name: `Azurite`,
         description: `thwomp.mp3`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 118091,
-        likes: 3849,
+        length: 'Long' as Length,
+        downloads: 118230,
+        likes: 3853,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '60740290': {
+    '60740290': {
         name: `Aquatic Auroras`,
         description: `verified by harry styles`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 234158,
-        likes: 9567,
+        length: 'Long' as Length,
+        downloads: 234228,
+        likes: 9570,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '60960827': {
+    '60960827': {
         name: `Astronaut 14`,
         description: `Astronaut 13 remake. Collab with Alfian10, for "GDS CC" Verified by PrayogaGD`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 53418,
-        likes: 2760,
+        length: 'Long' as Length,
+        downloads: 53424,
+        likes: 2762,
         objectCount: 59050,
         ratingType: 'Feature' as Rating
     },
-     '61132346': {
+    '61132346': {
         name: `Hateful Reflection`,
         description: `Hate.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 119323,
-        likes: 6785,
+        length: 'Long' as Length,
+        downloads: 119361,
+        likes: 6788,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '61531210': {
+    '61531210': {
         name: `Hyper Paradox`,
         description: `Enter the paradox of the paracosms.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 145715,
-        likes: 5537,
+        length: 'Long' as Length,
+        downloads: 145763,
+        likes: 5538,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '62133870': {
+    '62133870': {
         name: `Broken Reality`,
         description: `Amazing NC Level Made by Zerenity, Verified by Me!! Remade 1.9 level (Puries Fantasy)`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 73008,
-        likes: 5120,
+        length: 'Long' as Length,
+        downloads: 73086,
+        likes: 5131,
         objectCount: 58669,
         ratingType: 'Feature' as Rating
     },
-     '62592746': {
+    '62592746': {
         name: `Tenth Circle`,
         description: `Gameplay: First 70% - NormDanchik; last 30% - Me. Decor - DeniPol(me). Verified - Dorami & Blitzer. Istochnik: https://youtu.be/Wl959QnD3lM`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 422594,
-        likes: 19202,
+        length: 'Long' as Length,
+        downloads: 422800,
+        likes: 19213,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '62923992': {
+    '62923992': {
         name: `Sparkling Hope`,
         description: `Pink-purple NC level xdddddddd. Verified by Timo`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 77536,
-        likes: 7317,
+        length: 'Long' as Length,
+        downloads: 77587,
+        likes: 7324,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '63842337': {
+    '63842337': {
         name: `Fnafbass`,
         description: `Gameplay by The181, Decoration by ThatKai, verified by me. Inside joke collab that went way too far.`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 161014,
+        length: 'Long' as Length,
+        downloads: 161092,
         likes: 6714,
         objectCount: 40172,
         ratingType: 'Feature' as Rating
     },
-     '64612787': {
+    '64612787': {
         name: `Zacarias`,
         description: `New BrazilTeam's level that has been updated to my account. Enjoy! Verified by Mxteus`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 72026,
-        likes: 7195,
+        length: 'Long' as Length,
+        downloads: 72078,
+        likes: 7197,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '64902117': {
+    '64902117': {
         name: `Meteoric Debris`,
         description: `daze`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 42173,
-        likes: 2829,
+        length: 'Long' as Length,
+        downloads: 42195,
+        likes: 2830,
         objectCount: 47608,
         ratingType: 'Feature' as Rating
     },
-     '65046970': {
+    '65046970': {
         name: `Apollo 13`,
         description: `Originally planned as the GDS CC entry by endlevel and me, now a solo remake of Astronaut 13 by Minesap, should be a Very Hard/Insane Demon.`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 62758,
-        likes: 2722,
+        length: 'Long' as Length,
+        downloads: 62789,
+        likes: 2724,
         objectCount: 41117,
         ratingType: 'Feature' as Rating
     },
-     '68414488': {
+    '68414488': {
         name: `Molten Core`,
         description: `Jeszcze Polska nie zginela, Kiedy my zyjemy. Co nam obca przemoc wziela, Szabla odbierzemy.   J E B A C     P I S`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 121906,
-        likes: 5046,
+        length: 'Long' as Length,
+        downloads: 121947,
+        likes: 5047,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '68688849': {
+    '68688849': {
         name: `Sonic Wave Rebirth`,
         description: `Collab with FunnyGame, Verified by Moosh.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 1752599,
-        likes: 45626,
+        length: 'XL' as Length,
+        downloads: 1753517,
+        likes: 45640,
         objectCount: 52486,
         ratingType: 'Epic' as Rating
     },
-     '69685815': {
+    '69685815': {
         name: `Sonic Wave Infinity`,
         description: `Legendary Demon by APTeam. Verified by Xanii. Legacy Mode can be enabled with LDM Checkbox. Legacy Concept by Viprin. Version 2.0`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 2234134,
-        likes: 83457,
+        length: 'XL' as Length,
+        downloads: 2235434,
+        likes: 83486,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '69871779': {
+    '69871779': {
         name: `Friday Vortex`,
         description: `And next friday night, we'll do it all again. Dedicated to Slithium, Declan, Tuggy, GrenadeofTacos, and SaRy... SONG IS ON MY YOUTUBE`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 58296,
+        length: 'Long' as Length,
+        downloads: 58328,
         likes: 2305,
         objectCount: 49340,
         ratingType: 'Feature' as Rating
     },
-     '72011288': {
+    '72011288': {
         name: `Falling Stars`,
         description: `Verified by Perlite, dedicated to EVW and Knots. Enjoy, rate insane demon and good luck :D (Nerfdate: first drop transition is easier now)`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 43090,
+        length: 'Long' as Length,
+        downloads: 43100,
         likes: 2071,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '72449577': {
+    '72449577': {
         name: `In Cargill`,
         description: `Shapes from form and void. Good luck!`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 37584,
-        likes: 2234,
+        length: 'Long' as Length,
+        downloads: 37588,
+        likes: 2235,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '72810041': {
+    '72810041': {
         name: `ZXCircleS`,
         description: `Coil Coil Coil`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 1574405,
-        likes: 117345,
+        length: 'Long' as Length,
+        downloads: 1574683,
+        likes: 117367,
         objectCount: 35719,
         ratingType: 'Feature' as Rating
     },
-     '76159410': {
+    '76159410': {
         name: `Cosmic Cyclone`,
         description: `Sequel to the legendary Sonic Wave by Cyclic. Verified by DoSh7t. Made by APTeam. (v1.3)`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 284916,
-        likes: 15324,
+        length: 'Long' as Length,
+        downloads: 285110,
+        likes: 15331,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '76962930': {
+    '76962930': {
         name: `Sakupen Circles`,
         description: `By Nick24, DrCuber, korewa, Muffy450, Renn241, endevvor, Mzero, NineDice, GhostVandalf. Dedicated to Cursed`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Long' as Length,
-        downloads: 4248756,
-        likes: 155189,
+        length: 'Medium' as Length,
+        downloads: 4251944,
+        likes: 155269,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '77132030': {
+    '77132030': {
         name: `Ratio Circles`,
         description: `Made in 3 days. Happy new year everyone :)`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'Long' as Length,
-        downloads: 478799,
-        likes: 31839,
+        length: 'Medium' as Length,
+        downloads: 479669,
+        likes: 31902,
         objectCount: 24995,
         ratingType: 'Feature' as Rating
     },
-     '78964835': {
+    '78964835': {
         name: `SemiCircles`,
         description: `Any angle inscribed in a semicircle will always have a measure of 90 degrees. Made on the 1.9 GDPS!`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 55645,
-        likes: 4579,
+        length: 'Long' as Length,
+        downloads: 55695,
+        likes: 4582,
         objectCount: 32057,
         ratingType: 'Feature' as Rating
     },
-     '79182381': {
+    '79182381': {
         name: `flea`,
         description: `And quite a spanish one at that.`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'Long' as Length,
-        downloads: 187888,
-        likes: 9053,
+        length: 'Medium' as Length,
+        downloads: 188026,
+        likes: 9058,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '79489649': {
+    '79489649': {
         name: `HamDuck Vortex`,
         description: ``,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 54302,
-        likes: 4649,
+        length: 'Long' as Length,
+        downloads: 54343,
+        likes: 4654,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '79862130': {
+    '79862130': {
         name: `Mehdi`,
         description: `dedicated to qventiam. thank you royen for your previous verifications [1.9 GDPS nc level]`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 22327,
+        length: 'Long' as Length,
+        downloads: 22340,
         likes: 1494,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '81139702': {
+    '81139702': {
         name: `The Hallucination`,
         description: `Psychedelic. layout and verified by Votchi`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 238222,
-        likes: 11853,
+        length: 'XL' as Length,
+        downloads: 238422,
+        likes: 11860,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '81748963': {
+    '81748963': {
         name: `Through The Aether`,
         description: `Take a journey through an alternate dimension. My latest attempt at making a NC level, let me know what you think!`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 19144,
-        likes: 1238,
+        length: 'Long' as Length,
+        downloads: 19168,
+        likes: 1240,
         objectCount: 59704,
         ratingType: 'Feature' as Rating
     },
-     '84766628': {
+    '84766628': {
         name: `Cat Planet`,
         description: `My only easy level, Enjoy ^,^  - C4T PL4N3T -`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 326403,
-        likes: 11275,
+        length: 'Long' as Length,
+        downloads: 326773,
+        likes: 11288,
         objectCount: 35551,
         ratingType: 'Feature' as Rating
     },
-     '86565813': {
+    '86565813': {
         name: `Fishbass`,
         description: `you hear about fishbass? (use ldm if using nong)`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 89464,
-        likes: 4705,
+        length: 'Long' as Length,
+        downloads: 89537,
+        likes: 4712,
         objectCount: 57333,
         ratingType: 'Feature' as Rating
     },
-     '87353798': {
+    '87353798': {
         name: `Carp Minor`,
         description: `im a little fishy ;3 awa m so hap am takin estroutgen and m gonna be girlfish! OMG ;3; THEY CAUGHT ME A :( whyre they bringin me 2 th piano?")`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 49821,
-        likes: 2754,
+        length: 'Long' as Length,
+        downloads: 49861,
+        likes: 2760,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '88853479': {
+    '88853479': {
         name: `cerebral hemorrhage`,
         description: `Remake of a old 2018 level i made :) Started 9/20/2022 and finished 2/19/2023. Nerf date 5/13/2023`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 38491,
-        likes: 1463,
+        length: 'Long' as Length,
+        downloads: 38571,
+        likes: 1464,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '88873060': {
+    '88873060': {
         name: `ACCELERATOR`,
         description: `Accelerate! Playtested by spark, Raivolt, ZachLy, and Tuuns. For Icarus CC2!`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 146053,
-        likes: 7719,
+        length: 'Long' as Length,
+        downloads: 146250,
+        likes: 7732,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '89876243': {
+    '89876243': {
         name: `FIREPOWER`,
         description: `L|O_O|J Your skull as a child did not drop as hard as this map L|X_X|J L|+_+|J`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 93066,
-        likes: 3866,
+        length: 'XL' as Length,
+        downloads: 93432,
+        likes: 3882,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '90222644': {
+    '90222644': {
         name: `The Mines Circles`,
         description: `The children yearn for The Mines :tm:`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 16644,
-        likes: 828,
+        length: 'Long' as Length,
+        downloads: 16655,
+        likes: 830,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '90390075': {
+    '90390075': {
         name: `Solar Flare`,
         description: `The star's name is Janet, please be nice to her.`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 168230,
-        likes: 7358,
+        length: 'Long' as Length,
+        downloads: 168506,
+        likes: 7365,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '94179418': {
+    '94179418': {
         name: `Haywire`,
         description: `My first full solo level after 7+ years of using the editor. Made for IcarusCC 2. Thank you all <3`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 45223,
-        likes: 3648,
+        length: 'Long' as Length,
+        downloads: 45240,
+        likes: 3650,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '94547076': {
+    '94547076': {
         name: `Psychedelic Circles`,
         description: `Don't do drugs, kid.`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 125887,
-        likes: 5251,
+        length: 'Long' as Length,
+        downloads: 125904,
+        likes: 5252,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '94563744': {
+    '94563744': {
         name: `tipo B`,
         description: `for icarus CC | made in 3 moths   -->  Tipo B me lembrou slaughterhouse , UNDERGROUND , Accelerate. ~ Matheus9618`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 76571,
-        likes: 7496,
+        length: 'Long' as Length,
+        downloads: 76635,
+        likes: 7502,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '94591693': {
+    '94591693': {
         name: `Ten Circles`,
         description: `For Icarus CC2 | Another NC themed level with DeniPol! Enjoy ;)`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 78900,
-        likes: 5949,
+        length: 'Long' as Length,
+        downloads: 78971,
+        likes: 5954,
         objectCount: 57491,
         ratingType: 'Feature' as Rating
     },
-     '94591772': {
+    '94591772': {
         name: `Nomostros Cosmos`,
         description: `Inside of the aircraft, a scientist decides to make an expirement when suddenly, it fails and gets absorbed by a black hole. His goal: find an exit. || For IcarusCC2`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 111355,
-        likes: 7525,
+        length: 'XL' as Length,
+        downloads: 111395,
+        likes: 7529,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '94595730': {
+    '94595730': {
         name: `After Image`,
         description: `Nine.Circles.exe is dangerous bot that has been depriving levels from their creativity ever since 1.9. (For Icarus CC2)`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 13838,
-        likes: 791,
+        length: 'Long' as Length,
+        downloads: 13848,
+        likes: 793,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '94599528': {
+    '94599528': {
         name: `Spacetime Error`,
         description: `My entry for Icarus CC2. A small journey through space with a cybernetic essence that is conflicted by the presence of a black hole. LDM recommended for low-end devices.`,
         difficulty: 'Medium Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 78012,
-        likes: 7384,
+        length: 'Long' as Length,
+        downloads: 78040,
+        likes: 7389,
         objectCount: 62275,
         ratingType: 'Feature' as Rating
     },
-     '94610370': {
+    '94610370': {
         name: `Ring Trick`,
         description: `Come with me onto a journey like never before.. (For Icarus CC2)`,
         difficulty: 'Hard Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 183838,
-        likes: 9759,
+        length: 'XL' as Length,
+        downloads: 183914,
+        likes: 9764,
         objectCount: 65535,
         ratingType: 'Epic' as Rating
     },
-     '94772024': {
+    '94772024': {
         name: `Astrophobia`,
         description: `Made entirely on the 1.9 GDPS! Featuring Royen & Valentine. Verified by me, added coin in 2.1!`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 28697,
-        likes: 1494,
+        length: 'Long' as Length,
+        downloads: 28748,
+        likes: 1496,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '95255152': {
+    '95255152': {
         name: `Bete Noire`,
         description: `Official sequel of Fear Me by CrispyDash - 08/10/23 | Hosted by Phantom7Ks - Verified by Diamond | #ThePurgatorySupremacy`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 25679,
-        likes: 1393,
+        length: 'Long' as Length,
+        downloads: 25713,
+        likes: 1394,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '95524621': {
+    '95524621': {
         name: `Crackhead Circles`,
         description: `dont do drugs - verified by teraaa - bugfix update for mac`,
         difficulty: 'Extreme Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 55627,
-        likes: 1935,
+        length: 'Long' as Length,
+        downloads: 55720,
+        likes: 1938,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '99246761': {
+    '99246761': {
         name: `it really circles`,
         description: `Decided to make my own nine circles level since the game doesnt have enough, hope you enjoy :3`,
         difficulty: 'Easy Demon',
         stars: 10,
-        length: 'XL' as Length,
-        downloads: 48532,
-        likes: 2735,
+        length: 'Long' as Length,
+        downloads: 48598,
+        likes: 2737,
         objectCount: 49372,
         ratingType: 'Feature' as Rating
     },
-     '102265892': {
+    '102265892': {
         name: `Sonic Wave Unlimited`,
         description: `Sonic Wave Unlimited releasing in 1 NOW! CAN YOU SURVIVE? By APTeamButAwesome and more!!!!`,
         difficulty: 'Insane Demon',
         stars: 10,
-        length: 'Platformer' as Length,
-        downloads: 135439,
-        likes: 7269,
+        length: 'XL' as Length,
+        downloads: 135794,
+        likes: 7288,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '3151283': {
+    '3151283': {
         name: `Beginning of Colours`,
         description: `bug fixed (finally) pass is 697034`,
         difficulty: 'Auto',
         stars: 1,
-        length: 'XL' as Length,
-        downloads: 336423,
-        likes: 62215,
+        length: 'Long' as Length,
+        downloads: 336455,
+        likes: 62222,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '3472006': {
+    '3472006': {
         name: `vesuve`,
         description: `It was not a good idea to go hiking on that mountain ! ... Can you SURVIVE ?? Use gray`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 40225,
+        length: 'Long' as Length,
+        downloads: 40228,
         likes: 4396,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '5256745': {
+    '5256745': {
         name: `new stereo madness`,
         description: `Second of Fever Remix Series ! My Entry For Etzer Contest !!  Mini jewel by MetalCruiser support him`,
         difficulty: 'Hard',
         stars: 4,
-        length: 'XL' as Length,
-        downloads: 153158,
-        likes: 18436,
+        length: 'Long' as Length,
+        downloads: 153177,
+        likes: 18437,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '5753157': {
+    '5753157': {
         name: `Chaoz Devotion`,
         description: `chaoz devotion`,
-        difficulty: 'Harder',
+        difficulty: 'Hard',
         stars: 5,
-        length: 'XL' as Length,
-        downloads: 25874,
+        length: 'Long' as Length,
+        downloads: 25881,
         likes: 3547,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '6361170': {
+    '6361170': {
         name: `If 9 Circles was Lv1`,
         description: `No more PASS for u guys till I see less copies, which wont be anytime soon. Please dont steal.`,
         difficulty: 'Hard',
         stars: 4,
-        length: 'XL' as Length,
-        downloads: 2622635,
-        likes: 433315,
+        length: 'Long' as Length,
+        downloads: 2622895,
+        likes: 433335,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '6877843': {
+    '6877843': {
         name: `If Fairydust was L1`,
         description: `Cool ! New update ! To download the level, you can get the password on my video on my Youtube channel : MorpheiX :)`,
-        difficulty: 'Hard',
+        difficulty: 'Normal',
         stars: 3,
-        length: 'XL' as Length,
-        downloads: 1192340,
-        likes: 199728,
+        length: 'Long' as Length,
+        downloads: 1192436,
+        likes: 199734,
         objectCount: 11286,
         ratingType: 'Feature' as Rating
     },
-     '6977311': {
+    '6977311': {
         name: `the realistik v2`,
         description: `thanks RobTop   , pass 123456`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 98284,
+        length: 'Long' as Length,
+        downloads: 98293,
         likes: 9945,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '7083373': {
+    '7083373': {
         name: `Nine caveS `,
         description: `2.0 coin update! This level lags now, I did what I could. Enjoy and don't forget to check out my other levels!`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 75980,
+        length: 'Long' as Length,
+        downloads: 75990,
         likes: 4791,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '7203798': {
+    '7203798': {
         name: `lightsaber battle`,
         description: `Check out my other levels ;)`,
         difficulty: 'Auto',
         stars: 1,
-        length: 'XL' as Length,
-        downloads: 272090,
-        likes: 53263,
+        length: 'Long' as Length,
+        downloads: 272109,
+        likes: 53266,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '8112546': {
+    '8112546': {
         name: `Dark matter`,
         description: `Enjoy! or smash your keyboard. Rate insane.`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 44843,
+        length: 'Long' as Length,
+        downloads: 44846,
         likes: 5003,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '8331090': {
+    '8331090': {
         name: `classical`,
         description: `pls sub to my yt channel - geometry dash d4sh3r! became harder - demon now?..`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 103485,
-        likes: 8181,
+        length: 'Long' as Length,
+        downloads: 103508,
+        likes: 8182,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '8725630': {
+    '8725630': {
         name: `Dual Extreme `,
         description: `I'm unable to fix all the bugs 'cause there are so many things who can cause you to die, I can try but I'm afraid to cause new ones instead`,
         difficulty: 'Auto',
         stars: 1,
-        length: 'XL' as Length,
-        downloads: 201053,
-        likes: 24053,
+        length: 'Long' as Length,
+        downloads: 201118,
+        likes: 24058,
         objectCount: 15298,
         ratingType: 'Feature' as Rating
     },
-     '8883107': {
+    '8883107': {
         name: `Autosonic`,
         description: `Fixed 28% bug for everyone and a few other bugs.`,
         difficulty: 'Auto',
         stars: 1,
-        length: 'Long' as Length,
-        downloads: 597781,
-        likes: 70145,
+        length: 'Medium' as Length,
+        downloads: 597841,
+        likes: 70156,
         objectCount: 8997,
         ratingType: 'Feature' as Rating
     },
-     '9315108': {
+    '9315108': {
         name: `For The Taking`,
         description: `Final Update!! Special thanks to ItzCheesy and Chillius for help.`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 96305,
-        likes: 9496,
+        length: 'Long' as Length,
+        downloads: 96331,
+        likes: 9497,
         objectCount: 10466,
         ratingType: 'Feature' as Rating
     },
-     '9803621': {
+    '9803621': {
         name: `Rising Circles`,
         description: `V2 - fixed a lot of bugs. Thx 4 feature, pass 10782. Also try my other levels!`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 239476,
-        likes: 35855,
+        length: 'Long' as Length,
+        downloads: 239502,
+        likes: 35856,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '10125163': {
+    '10125163': {
         name: `dorabaebasic10`,
         description: `Inspired Nine Circles.  DORABAE-BASIC10. `,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 14033106,
-        likes: 814620,
+        length: 'Long' as Length,
+        downloads: 14036519,
+        likes: 814737,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '10155484': {
+    '10155484': {
         name: `Eighto Circles`,
         description: `Tried my best to fix this level's inconsistencies.`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 165823,
-        likes: 12328,
+        length: 'Long' as Length,
+        downloads: 165850,
+        likes: 12326,
         objectCount: 12701,
         ratingType: 'Feature' as Rating
     },
-     '10238245': {
+    '10238245': {
         name: `platforms of dusk`,
         description: `The update is here! I've wanted to update this level for the longest time. I hope you enjoy it! If you are stargrinding, avoid this level.`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 42126,
-        likes: 2115,
+        length: 'Long' as Length,
+        downloads: 42142,
+        likes: 2117,
         objectCount: 17379,
         ratingType: 'Feature' as Rating
     },
-     '10966402': {
+    '10966402': {
         name: `Popcorn`,
         description: `My Nc And Retro Level! RobTop Featured? Please? xD Thank For Play!`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 87595,
-        likes: 5068,
+        length: 'Long' as Length,
+        downloads: 87612,
+        likes: 5069,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '11335866': {
+    '11335866': {
         name: `Drop Out `,
         description: `First 2.0 Circles! Hope you like! Visit my YT channel! `,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 69026,
+        length: 'Long' as Length,
+        downloads: 69047,
         likes: 4587,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '11813101': {
+    '11813101': {
         name: `astronaut circles`,
         description: `Hey Eric! I saw my level was soon on the list, so I encourage you to play the V2 I uploaded. It is more visually pleasing and better to play`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 64965,
-        likes: 7550,
+        length: 'Long' as Length,
+        downloads: 64972,
+        likes: 7551,
         objectCount: 8561,
         ratingType: 'Feature' as Rating
     },
-     '11816658': {
+    '11816658': {
         name: `Kirby Circle`,
         description: `:3`,
         difficulty: 'Harder',
         stars: 6,
-        length: 'XL' as Length,
-        downloads: 147904,
+        length: 'Long' as Length,
+        downloads: 147938,
         likes: 10149,
         objectCount: 15379,
         ratingType: 'Feature' as Rating
     },
-     '11918033': {
+    '11918033': {
         name: `Friday Night`,
         description: `Updated to fix some stuff...still don't know why this terrible level was featured XD Pass is 1787`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 83514,
+        length: 'Long' as Length,
+        downloads: 83521,
         likes: 5072,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '11951127': {
+    '11951127': {
         name: `Entrance`,
         description: `new level " magnolia" pls rate for the featured :)!`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 16049,
+        length: 'Long' as Length,
+        downloads: 16050,
         likes: 2543,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '11953778': {
+    '11953778': {
         name: `Reality`,
         description: `Thanks for the support guys ;)`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 23505,
+        length: 'Long' as Length,
+        downloads: 23506,
         likes: 2231,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '11958784': {
+    '11958784': {
         name: `HeartBreaker`,
         description: `YES MMM OH GOD! My first nine circles level! Thanks for the feature rubrub :3`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 122127,
+        length: 'Long' as Length,
+        downloads: 122141,
         likes: 14495,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '12239617': {
+    '12239617': {
         name: `Xenogenesis`,
         description: `v23!? XD Finally, Xenogenesis was fixed.`,
         difficulty: 'Auto',
         stars: 1,
-        length: 'XL' as Length,
-        downloads: 581310,
-        likes: 89459,
+        length: 'Long' as Length,
+        downloads: 581351,
+        likes: 89460,
         objectCount: 11099,
         ratingType: 'Feature' as Rating
     },
-     '12300295': {
+    '12300295': {
         name: `If Jawbreaker Was L1`,
         description: `Reuploaded.. Follow me for more and check out My YouTube-channel too! c:`,
-        difficulty: 'Hard',
+        difficulty: 'Normal',
         stars: 3,
-        length: 'XL' as Length,
-        downloads: 3231964,
-        likes: 471845,
+        length: 'Long' as Length,
+        downloads: 3232417,
+        likes: 471872,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '12341888': {
+    '12341888': {
         name: `If Sonic Wave was L1`,
         description: `Easy version of Sonic Wave by Cyclic. Enjoy the hardest lvl1 EVER`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'Platformer' as Length,
-        downloads: 3776356,
-        likes: 237271,
+        length: 'XL' as Length,
+        downloads: 3777553,
+        likes: 237316,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '12902542': {
+    '12902542': {
         name: `Industrial Abyss`,
         description: `...`,
-        difficulty: 'Harder',
+        difficulty: 'Hard',
         stars: 5,
-        length: 'XL' as Length,
-        downloads: 47276,
+        length: 'Long' as Length,
+        downloads: 47284,
         likes: 5000,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13073860': {
+    '13073860': {
         name: `dubsteps`,
         description: `dubsteps circles `,
-        difficulty: 'Harder',
+        difficulty: 'Hard',
         stars: 5,
-        length: 'XL' as Length,
-        downloads: 459992,
+        length: 'Long' as Length,
+        downloads: 460019,
         likes: 68348,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13433184': {
+    '13433184': {
         name: `FAYRDUST`,
         description: `I hope they give is my class like nine circles`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 40188,
+        length: 'Long' as Length,
+        downloads: 40196,
         likes: 5570,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '13524580': {
+    '13524580': {
         name: `if infinite c was l1`,
         description: `A easy version of the demon called "Infinite Circles" Thanks for playing 8)`,
-        difficulty: 'Hard',
+        difficulty: 'Normal',
         stars: 3,
-        length: 'XL' as Length,
-        downloads: 313573,
-        likes: 53329,
+        length: 'Long' as Length,
+        downloads: 313605,
+        likes: 53330,
         objectCount: 7594,
         ratingType: 'Feature' as Rating
     },
-     '13699667': {
+    '13699667': {
         name: `Mlg Swag Circles`,
         description: `I would like to apologise for this... I was 13, I am not proud of what I did...`,
         difficulty: 'Auto',
         stars: 1,
-        length: 'XL' as Length,
-        downloads: 749909,
-        likes: 112805,
+        length: 'Long' as Length,
+        downloads: 749967,
+        likes: 112814,
         objectCount: 33198,
         ratingType: 'Feature' as Rating
     },
-     '13920616': {
+    '13920616': {
         name: `Genesis`,
         description: ``,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 184666,
-        likes: 18957,
+        length: 'Long' as Length,
+        downloads: 184688,
+        likes: 18958,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '14160096': {
+    '14160096': {
         name: `Future Circles`,
         description: `Updated to make it look better!`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 82237,
-        likes: 8060,
+        length: 'Long' as Length,
+        downloads: 82241,
+        likes: 8061,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '14374201': {
+    '14374201': {
         name: `a mixed of colors `,
         description: `2000 likes!!`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'Platformer' as Length,
-        downloads: 33171,
+        length: 'XL' as Length,
+        downloads: 33175,
         likes: 2803,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '15798818': {
+    '15798818': {
         name: `The Screamroom`,
         description: `Low detail mode is too hard to make, some moving parts are in high detail and are necessary. 261553 ;)`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 49577,
-        likes: 4232,
+        length: 'Long' as Length,
+        downloads: 49594,
+        likes: 4233,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '16723365': {
+    '16723365': {
         name: `Altereffect`,
         description: `Auto key deleted. Verified by NucleusCore_34. OMG thanks RobTop`,
         difficulty: 'Hard',
         stars: 4,
-        length: 'Platformer' as Length,
-        downloads: 47772,
-        likes: 5973,
+        length: 'XL' as Length,
+        downloads: 47774,
+        likes: 5974,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '21900647': {
+    '21900647': {
         name: `Machina`,
         description: `:P`,
         difficulty: 'Auto',
         stars: 1,
-        length: 'XL' as Length,
-        downloads: 431066,
-        likes: 46352,
+        length: 'Long' as Length,
+        downloads: 431118,
+        likes: 46355,
         objectCount: 0,
         ratingType: 'Feature' as Rating
     },
-     '53515815': {
+    '53515815': {
         name: `Technological Meadow`,
         description: `I liked to do this level and also the music. I hope it is featured because it cost me a little to create this level. LiKe <3`,
         difficulty: 'Harder',
         stars: 6,
-        length: 'XL' as Length,
-        downloads: 15016,
+        length: 'Long' as Length,
+        downloads: 15018,
         likes: 2539,
         objectCount: 33360,
         ratingType: 'Feature' as Rating
     },
-     '61529537': {
+    '61529537': {
         name: `Moonbeam`,
         description: `Inspired by Balengu Vortex and F3lixsram.`,
         difficulty: 'Harder',
         stars: 6,
-        length: 'XL' as Length,
-        downloads: 16681,
-        likes: 1997,
+        length: 'Long' as Length,
+        downloads: 16686,
+        likes: 1998,
         objectCount: 32067,
         ratingType: 'Feature' as Rating
     },
-     '66077698': {
+    '66077698': {
         name: `Hurbanovo`,
         description: `sequel na sturovo`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
+        length: 'Long' as Length,
         downloads: 7407,
         likes: 728,
         objectCount: 49695,
         ratingType: 'Feature' as Rating
     },
-     '68944287': {
+    '68944287': {
         name: `Holy balls a solO`,
         description: `balls (that's hi eric in latin)`,
-        difficulty: 'Normal',
+        difficulty: 'Easy',
         stars: 2,
-        length: 'XL' as Length,
-        downloads: 85064,
-        likes: 6864,
+        length: 'Long' as Length,
+        downloads: 85073,
+        likes: 6867,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '71950911': {
+    '71950911': {
         name: `Dimensional`,
         description: `inspired by nine circles, enjoy (for EVWNCP) :D`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 433785,
-        likes: 34392,
+        length: 'Long' as Length,
+        downloads: 433885,
+        likes: 34395,
         objectCount: 20370,
         ratingType: 'Feature' as Rating
     },
-     '72258485': {
+    '72258485': {
         name: `misty circles`,
         description: `yes, a nine circles styled level. i tried to keep as many elements from the original level as possible. for EVWNCP!`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 258253,
-        likes: 32602,
+        length: 'Long' as Length,
+        downloads: 258283,
+        likes: 32606,
         objectCount: 14635,
         ratingType: 'Feature' as Rating
     },
-     '72383395': {
+    '72383395': {
         name: `iPhone Redux`,
         description: `this level is not a redux and has nothing to do with iphones or apple (for EVWNCP) | <cr>good luck with the coin</c>`,
-        difficulty: 'Normal',
+        difficulty: 'Easy',
         stars: 2,
-        length: 'XL' as Length,
-        downloads: 178486,
-        likes: 13759,
+        length: 'Long' as Length,
+        downloads: 178538,
+        likes: 13762,
         objectCount: 49198,
         ratingType: 'Feature' as Rating
     },
-     '72423358': {
+    '72423358': {
         name: `Crocles`,
         description: `croc circles. crocles. teehee.`,
         difficulty: 'Hard',
         stars: 4,
-        length: 'Long' as Length,
-        downloads: 55359,
-        likes: 7593,
+        length: 'Medium' as Length,
+        downloads: 55371,
+        likes: 7597,
         objectCount: 24801,
         ratingType: 'Feature' as Rating
     },
-     '72498415': {
+    '72498415': {
         name: `Joshua Vortex`,
         description: `Dedicated to every Josh out there. | Made for the EVWNCP! :)`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 326467,
-        likes: 26137,
+        length: 'Long' as Length,
+        downloads: 326489,
+        likes: 26141,
         objectCount: 58642,
         ratingType: 'Feature' as Rating
     },
-     '72807796': {
+    '72807796': {
         name: `Sadge`,
         description: `How it feels when an evw video ends. For evwncp.`,
-        difficulty: 'Hard',
+        difficulty: 'Normal',
         stars: 3,
-        length: 'XL' as Length,
-        downloads: 38350,
-        likes: 4170,
+        length: 'Long' as Length,
+        downloads: 38354,
+        likes: 4171,
         objectCount: 39645,
         ratingType: 'Feature' as Rating
     },
-     '72942759': {
+    '72942759': {
         name: `PAHCles`,
         description: `pahc circles`,
-        difficulty: 'Harder',
+        difficulty: 'Hard',
         stars: 5,
-        length: 'Long' as Length,
-        downloads: 67697,
-        likes: 8208,
+        length: 'Medium' as Length,
+        downloads: 67705,
+        likes: 8210,
         objectCount: 25455,
         ratingType: 'Feature' as Rating
     },
-     '73240485': {
+    '73240485': {
         name: `Valk`,
         description: `i like this level alot`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 8975,
-        likes: 1235,
+        length: 'Long' as Length,
+        downloads: 8977,
+        likes: 1236,
         objectCount: 49969,
         ratingType: 'Feature' as Rating
     },
-     '73460770': {
+    '73460770': {
         name: `AboR DebanK`,
         description: `Nc lvl for EVWCP! Made in 2 days! Im really proud of it. Next lvls will be longer i swear! Dedicated to EVW ofc! Rate 7-8*`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'Long' as Length,
-        downloads: 468995,
-        likes: 35627,
+        length: 'Medium' as Length,
+        downloads: 469032,
+        likes: 35630,
         objectCount: 21885,
         ratingType: 'Feature' as Rating
     },
-     '74724111': {
+    '74724111': {
         name: `Zen`,
         description: `scariest level in gd`,
         difficulty: 'Harder',
         stars: 6,
-        length: 'XL' as Length,
-        downloads: 12615,
+        length: 'Long' as Length,
+        downloads: 12616,
         likes: 1836,
         objectCount: 28946,
         ratingType: 'Feature' as Rating
     },
-     '75323912': {
+    '75323912': {
         name: `Sparkscles`,
         description: `sparksomega circles`,
         difficulty: 'Harder',
         stars: 6,
-        length: 'XL' as Length,
-        downloads: 38225,
+        length: 'Long' as Length,
+        downloads: 38230,
         likes: 3960,
         objectCount: 16978,
         ratingType: 'Feature' as Rating
     },
-     '75361742': {
+    '75361742': {
         name: `Star rain`,
         description: ``,
         difficulty: 'Harder',
         stars: 6,
-        length: 'XL' as Length,
-        downloads: 6609,
+        length: 'Long' as Length,
+        downloads: 6610,
         likes: 612,
         objectCount: 42019,
         ratingType: 'Feature' as Rating
     },
-     '75731172': {
+    '75731172': {
         name: `Triple A`,
         description: `For Evw, AAAAAlex, and Renn241. Update by BowtieGD.`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 21833,
-        likes: 1701,
+        length: 'Long' as Length,
+        downloads: 21865,
+        likes: 1704,
         objectCount: 32981,
         ratingType: 'Feature' as Rating
     },
-     '77695213': {
+    '77695213': {
         name: `Zaana`,
         description: `scariest level in gd (PART 2 O_O)`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 34050,
+        length: 'Long' as Length,
+        downloads: 34056,
         likes: 3711,
         objectCount: 27088,
         ratingType: 'Feature' as Rating
     },
-     '78446820': {
+    '78446820': {
         name: `Umbra Lev Iathan`,
         description: `reupload and redeco of umbra circles `,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 260610,
-        likes: 28911,
+        length: 'Long' as Length,
+        downloads: 260625,
+        likes: 28913,
         objectCount: 27372,
         ratingType: 'Feature' as Rating
     },
-     '78743399': {
+    '78743399': {
         name: `Generic wave iii`,
         description: `Special thanks to ShadowIan for giving me permission to make an official sequel to GWII.`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 57762,
-        likes: 4411,
+        length: 'Long' as Length,
+        downloads: 57772,
+        likes: 4414,
         objectCount: 55633,
         ratingType: 'Feature' as Rating
     },
-     '78936509': {
+    '78936509': {
         name: `6534`,
         description: `My modern NC level!! NC inspired by AlasstorGD. had alot of fun with this one! Enjoy :D`,
         difficulty: 'Harder',
         stars: 6,
-        length: 'Long' as Length,
-        downloads: 14501,
+        length: 'Medium' as Length,
+        downloads: 14506,
         likes: 1350,
         objectCount: 31422,
         ratingType: 'Feature' as Rating
     },
-     '79188336': {
+    '79188336': {
         name: `Nine Circles`,
         description: `Easy`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 161960,
-        likes: 11505,
+        length: 'Long' as Length,
+        downloads: 162058,
+        likes: 11508,
         objectCount: 35415,
         ratingType: 'Feature' as Rating
     },
-     '80725458': {
+    '80725458': {
         name: `Dubby wave`,
         description: `Made for my friend Dubbyball as a birthday gift!  2.2 Update! Should be balanced and optimized better!`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 8185,
+        length: 'Long' as Length,
+        downloads: 8190,
         likes: 828,
         objectCount: 37747,
         ratingType: 'Feature' as Rating
     },
-     '82980620': {
+    '82980620': {
         name: `Whats Good`,
         description: `Made in a year`,
-        difficulty: 'Hard',
+        difficulty: 'Normal',
         stars: 3,
-        length: 'XL' as Length,
-        downloads: 117934,
-        likes: 8499,
+        length: 'Long' as Length,
+        downloads: 117987,
+        likes: 8500,
         objectCount: 19186,
         ratingType: 'Feature' as Rating
     },
-     '84155605': {
+    '84155605': {
         name: `Groovy Circles`,
         description: `This level took 5 months to build, but I finally finished it. An idea by Brumik turned into a full level. Dedicated to ReYzen Group 8)`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 12870,
+        length: 'Long' as Length,
+        downloads: 12874,
         likes: 1128,
         objectCount: 65535,
         ratingType: 'Feature' as Rating
     },
-     '85853040': {
+    '85853040': {
         name: `Infinity BASICIRCLES`,
         description: `Back to the 1.9 STYLE ;) (1.9 + Glow = 2.?) Inspired By DoraBae & Nine Circles (For EVWNCP ~) :D`,
-        difficulty: 'Insane',
+        difficulty: 'Harder',
         stars: 7,
-        length: 'XL' as Length,
-        downloads: 25912,
+        length: 'Long' as Length,
+        downloads: 25921,
         likes: 2732,
         objectCount: 24742,
         ratingType: 'Feature' as Rating
     },
-     '85979871': {
+    '85979871': {
         name: `Spectral Nebula`,
         description: `*Uploaded with permission from Jordi* - Special thanks to Rifct for helping me add touches :)`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 22400,
-        likes: 2200,
+        length: 'Long' as Length,
+        downloads: 22408,
+        likes: 2202,
         objectCount: 40112,
         ratingType: 'Feature' as Rating
     },
-     '88051670': {
+    '88051670': {
         name: `Downward Spiral`,
         description: ` [A T R O C I T Y E X H I B I T I O N] playtested by ELLVO and Ricft.  `,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 17936,
+        length: 'Long' as Length,
+        downloads: 17937,
         likes: 1377,
         objectCount: 11670,
         ratingType: 'Feature' as Rating
     },
-     '93375725': {
+    '93375725': {
         name: `Chapter of Time`,
         description: `New level, enjoy it! :)`,
-        difficulty: 'Harder',
+        difficulty: 'Hard',
         stars: 5,
-        length: 'XL' as Length,
-        downloads: 22851,
-        likes: 2762,
+        length: 'Long' as Length,
+        downloads: 22856,
+        likes: 2763,
         objectCount: 22608,
         ratingType: 'Feature' as Rating
     },
-     '95109514': {
+    '95109514': {
         name: `Western VorteX`,
         description: `last 2.1 level (hopefully)`,
-        difficulty: 'Hard Demon',
+        difficulty: 'Insane',
         stars: 9,
-        length: 'XL' as Length,
-        downloads: 7952,
-        likes: 974,
+        length: 'Long' as Length,
+        downloads: 7956,
+        likes: 975,
         objectCount: 32364,
         ratingType: 'Feature' as Rating
     },
-     '103370684': {
+    '103370684': {
         name: `messiers Twin B`,
         description: `Sequel?? Remake?? I dont know what to call it. 3 days of work, honestly had fun for once.`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'Long' as Length,
-        downloads: 6733,
-        likes: 512,
+        length: 'Medium' as Length,
+        downloads: 6751,
+        likes: 514,
         objectCount: 49693,
         ratingType: 'Feature' as Rating
     },
-     '106040563': {
+    '106040563': {
         name: `absolute NINE CIRCLE`,
         description: `Dedicace a Paizo et FarawGD`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 89003,
-        likes: 8099,
+        length: 'Long' as Length,
+        downloads: 89034,
+        likes: 8102,
         objectCount: 17337,
         ratingType: 'Feature' as Rating
     },
-     '106237782': {
+    '106237782': {
         name: `absolute JAWBREAKER`,
         description: `Sequel to absolute NINE CIRCLE`,
         difficulty: 'Insane',
         stars: 8,
-        length: 'XL' as Length,
-        downloads: 362108,
-        likes: 34333,
+        length: 'Long' as Length,
+        downloads: 362438,
+        likes: 34353,
         objectCount: 40096,
         ratingType: 'Feature' as Rating
     },
