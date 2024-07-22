@@ -10,7 +10,7 @@ COLUMN_NAMES = ["name", "release_version", "colour_1", "colour_2", "screenshot",
 
 with open("./src/logic/AllLevels.ts", "w") as output:
     level_name_dict = {}
-    output.write('// Generated with `convert_spreadsheet.py`. Please don't modify this file directly!\n\n')
+    output.write("// Generated with `convert_spreadsheet.py`. Please don't modify this file directly!\n\n")
     output.write('import { NineCirclesLevel, Colour } from "./NineCirclesLevel";\n\n')
     output.write("const allLevels: NineCirclesLevel[] = [\n")
     
