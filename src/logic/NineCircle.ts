@@ -7,7 +7,7 @@ import {
   Colour,
 } from "./NineCirclesLevel.js";
 import { GuessResults, RelativeGuess } from "./Guess.js";
-import * as gd from "gj-boomlings-api";
+import * as api from "FakeAPI.js";
 
 function evaluateColours(
   guessed: [Colour, Colour],
@@ -41,36 +41,15 @@ function evaluateValues(guessed: number, correct: number): RelativeGuess {
 }
 
 function getNineCirclesLevel(levelId: number): NineCirclesLevel {
-  for (let i = 0; i < allLevels.length; i++) {
-    if (allLevels[i].levelId === levelId) {
-      return allLevels[i];
-    }
+  if (!(levelId.toString() in allLevels) {
+    throw new Error("Level ID not present in saved levels.");
   }
-  throw new Error("Level ID not present.");
+
+  return allLevels[levelId.toString()];
 }
 
-async function getLevelInformation(levelId: number): Promise<APIInformation> {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const response: any = await gd.dlLevel(levelId.toString());
-  let ratingType: string;
-  if (response.epic !== false) {
-    // this is so gross
-    ratingType = response.epic;
-  } else {
-    ratingType = response.featured ? "Feature" : "Rate";
-  }
-
-  return {
-    name: response.name,
-    description: response.description,
-    difficulty: response.difficulty,
-    stars: response.stars,
-    length: response.length,
-    downloads: response.downloads,
-    likes: response.likes,
-    objectCount: response.objects,
-    ratingType: ratingType,
-  };
+function getLevelInformation(levelId: number): APIInformation {
+  return api.dlLevel(levelId);
 }
 
 class NineCircle {
