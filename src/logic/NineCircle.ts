@@ -70,7 +70,7 @@ class NineCircle {
     }
 
     const levelId: number = nameToIdObj[levelName];
-    const guessedInformation: APIInformation = await getLevelInformation(
+    const guessedInformation: APIInformation = getLevelInformation(
       levelId
     );
 
