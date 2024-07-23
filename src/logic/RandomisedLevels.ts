@@ -4,7 +4,7 @@ import { nameToIdObj } from "./AllLevels";
 function daysSinceNewYear(): number {
     const currentDate: Date = new Date();
     const newYear: Date = new Date(currentDate.getFullYear(), 0, 1);
-    return Math.ceil((currentDate.valueOf() - newYear.valueOf() + 1) / (24 * 60 * 60 * 1000));
+    return Math.floor((currentDate.valueOf() - newYear.valueOf() + 1) / (24 * 60 * 60 * 1000));
 }
 
 function shuffle<Type>(array: Type[]): Type[] {
