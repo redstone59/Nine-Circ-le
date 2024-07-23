@@ -13,7 +13,8 @@ export default function Game() {
   return (
     <>
       <form
-        onSubmit={async () => {
+        onSubmit={async (e) => {
+          e.preventDefault();
           setGuesses([await game.guessLevel(guess), ...guesses]);
         }}
       >
@@ -22,7 +23,7 @@ export default function Game() {
           value={guess}
           onChange={(e) => setGuess(e.target.value)}
         ></input>
-        <input type="submit">Submit</input>
+        <button type="submit">Submit</button>
       </form>
       {guesses.map((g) => (
         <GuessResultsView result={g} />
