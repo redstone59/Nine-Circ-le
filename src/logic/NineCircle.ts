@@ -7,7 +7,7 @@ import {
   Colour,
 } from "./NineCirclesLevel.js";
 import { GuessResults, RelativeGuess } from "./Guess.js";
-import * as api from "FakeAPI.js";
+import * as api from "./FakeAPI.js";
 
 function evaluateColours(
   guessed: [Colour, Colour],
@@ -41,7 +41,7 @@ function evaluateValues(guessed: number, correct: number): RelativeGuess {
 }
 
 function getNineCirclesLevel(levelId: number): NineCirclesLevel {
-  if (!(levelId.toString() in allLevels) {
+  if (!(levelId.toString() in allLevels)) {
     throw new Error("Level ID not present in saved levels.");
   }
 
@@ -57,10 +57,12 @@ class NineCircle {
   information: APIInformation;
 
   constructor() {
-    this.level = allLevels[Math.floor(Math.random() * allLevels.length)];
-    getLevelInformation(this.level.levelId).then(
-      (value) => (this.information = value)
-    ); // ew
+    const levelNames: string[] = Object.keys(nameToIdObj);
+    const randomLevelName = levelNames[Math.floor(Math.random() * levelNames.length)];
+    const randomLevelId = nameToIdObj[randomLevelName];
+
+    this.level = allLevels[randomLevelId];
+    this.information = getLevelInformation(randomLevelId);
   }
 
   async guessLevel(levelName: string): Promise<GuessResults> {
