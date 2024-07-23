@@ -7,6 +7,7 @@ import {
   Colour,
 } from "./NineCirclesLevel.js";
 import { GuessResults, RelativeGuess } from "./Guess.js";
+import { levelToday } from "./RandomisedLevels.js";
 import * as api from "./FakeAPI.js";
 
 function evaluateColours(
@@ -57,9 +58,7 @@ class NineCircle {
   information: APIInformation;
 
   constructor() {
-    const levelNames: string[] = Object.keys(nameToIdObj);
-    const randomLevelName = levelNames[Math.floor(Math.random() * levelNames.length)];
-    const randomLevelId = nameToIdObj[randomLevelName];
+    const randomLevelId = nameToIdObj[levelToday];
 
     this.level = allLevels[randomLevelId];
     this.information = getLevelInformation(randomLevelId);
