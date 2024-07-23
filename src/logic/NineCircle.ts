@@ -1,14 +1,14 @@
-import { allLevels, nameToIdObj } from "./AllLevels.js";
+import { allLevels, nameToIdObj } from "./AllLevels";
 import {
   NineCirclesLevel,
   difficultyRanks,
   lengthRanks,
   APIInformation,
   Colour,
-} from "./NineCirclesLevel.js";
-import { GuessResults, RelativeGuess } from "./Guess.js";
-import { levelToday } from "./RandomisedLevels.js";
-import * as api from "./FakeAPI.js";
+} from "./NineCirclesLevel";
+import { GuessResults, RelativeGuess } from "./Guess";
+import { levelToday } from "./RandomisedLevels";
+import * as api from "./FakeAPI";
 
 function evaluateColours(
   guessed: [Colour, Colour],
@@ -70,9 +70,7 @@ class NineCircle {
     }
 
     const levelId: number = nameToIdObj[levelName];
-    const guessedInformation: APIInformation = getLevelInformation(
-      levelId
-    );
+    const guessedInformation: APIInformation = getLevelInformation(levelId);
 
     return this.getLevelResults(
       getNineCirclesLevel(levelId),
