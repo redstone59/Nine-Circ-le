@@ -13,6 +13,7 @@ async function guess() {
 
   game.guessLevel(levelName).then((result) => {
     console.log(result);
+    // TODO: fix - will not compare properly, compares by identity
     if (correctGuess !== result) {
       guess();
     }
