@@ -1,7 +1,16 @@
-import requests, time, base64
+import requests, time, base64, zlib
 
 SCRAPE_TIMEOUT = 10
 DOT_COUNT = 3
+
+# Taken from https://wyliemaster.github.io/gddocs/#/topics/levelstring_encoding_decoding
+def decode_level(level_data: str, is_official_level: bool) -> str:
+    if is_official_level:
+        level_data = 'H4sIAAAAAAAAA' + level_data
+    base64_decoded = base64.urlsafe_b64decode(level_data.encode())
+    # window_bits = 15 | 32 will autodetect gzip or not
+    decompressed = zlib.decompress(base64_decoded, 15 | 32)
+    return decompressed.decode()
 
 with open("level_list.txt") as file:
     spreadsheet = file.read()
@@ -87,7 +96,10 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         file.write("        " + f"length: '{["Tiny", "Medium", "Long", "XL", "Platformer"][int(response_dict["15"]) - 1]}' as Length,\n")
         file.write("        " + f"downloads: {response_dict["10"]},\n")
         file.write("        " + f"likes: {response_dict["14"]},\n")
-        file.write("        " + f"objectCount: {response_dict["45"]},\n")
+        
+        level_string: str = decode_level(response_dict['4'], False)
+        
+        file.write("        " + f"objectCount: {level_string.count(";") - 1},\n")
         
         if response_dict["42"] != "0":
             rating = ["Epic", "Legendary", "Mythic"][int(response_dict["42"]) - 1]
