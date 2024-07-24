@@ -99,7 +99,7 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         
         level_string: str = decode_level(response_dict['4'], False)
         
-        file.write("        " + f"objectCount: {level_string.count(";") - 1},\n")
+        file.write("        " + f"objectCount: {level_string.count(";")},\n")
         
         if response_dict["42"] != "0":
             rating = ["Epic", "Legendary", "Mythic"][int(response_dict["42"]) - 1]
