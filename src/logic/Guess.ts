@@ -13,17 +13,24 @@ type GuessResults = {
   objectCount: RelativeGuess;
 };
 
-const correctGuess: GuessResults = {
-  colourScheme: [true, true],
-  difficulty: RelativeGuess.CORRECT,
-  length: RelativeGuess.CORRECT,
-  downloads: RelativeGuess.CORRECT,
-  likes: RelativeGuess.CORRECT,
-  objectCount: RelativeGuess.CORRECT,
-};
-
 function isCorrectGuess(guess: GuessResults): boolean {
-  return Object.is(guess, correctGuess)
+  if (!guess.colourScheme[0] || 
+    (guess.colourScheme[0] !== guess.colourScheme[1])
+  ) {
+    return false;
+  }
+
+  // The bottom could be unravelled to be more readable.
+  let key: string;
+  const objectKeys: string[] = ["difficulty", "length", "downloads", "likes", "objectCount"];
+  
+  for (key of objectKeys) {
+    if (guess[key] !== RelativeGuess.CORRECT) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
 export { RelativeGuess, type GuessResults, isCorrectGuess };
