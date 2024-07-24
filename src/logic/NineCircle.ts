@@ -38,7 +38,7 @@ function evaluateValues(guessed: number, correct: number): RelativeGuess {
   if (guessed === correct) {
     return RelativeGuess.CORRECT;
   }
-  return guessed > correct ? RelativeGuess.LOWER : RelativeGuess.HIGHER;
+  return guessed < correct ? RelativeGuess.LOWER : RelativeGuess.HIGHER;
 }
 
 function getNineCirclesLevel(levelId: number): NineCirclesLevel {

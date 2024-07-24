@@ -11,6 +11,7 @@ export default function GuessResultsView({ result }: { result: GuessResults }) {
 
   return (
     <>
+      <br/>
       <p>First color: {result.colourScheme[0] ? "CORRECT" : "INCORRECT"}</p>
       <p>Second color: {result.colourScheme[1] ? "CORRECT" : "INCORRECT"}</p>
       {[...relativeGuesses.entries()].map(([k, v]) => {
