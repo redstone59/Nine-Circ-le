@@ -22,4 +22,8 @@ const correctGuess: GuessResults = {
   objectCount: RelativeGuess.CORRECT,
 };
 
-export { RelativeGuess, type GuessResults, correctGuess };
+function isCorrectGuess(guess: GuessResults): boolean {
+  return Object.is(guess, correctGuess)
+}
+
+export { RelativeGuess, type GuessResults, isCorrectGuess };
