@@ -26,7 +26,7 @@ export function RelativeGuessIcon({
     <img
       className={clsx(
         className,
-        guess == RelativeGuess.LOWER && "scale-y-[-1]",
+        guess == RelativeGuess.HIGHER && "scale-y-[-1]",
       )}
       src={guess == RelativeGuess.CORRECT ? checkmarkIcon : relativeArrowIcon}
       alt={alt}
