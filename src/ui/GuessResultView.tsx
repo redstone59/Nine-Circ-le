@@ -2,7 +2,7 @@ import ColoursResultView from "./ColoursResultView";
 import DifficultyResultView from "./DifficultyResultView";
 import { FullLevelInfo } from "../logic/NineCirclesLevel";
 import { GuessResult } from "../logic/Guess";
-import StatsResultView from "./StatsResultview";
+import StatsResultView from "./StatsResultView";
 
 export default function GuessResultView({
   info,

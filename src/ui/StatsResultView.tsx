@@ -2,6 +2,7 @@ import { FullLevelInfo } from "../logic/NineCirclesLevel";
 import { GuessResult } from "../logic/Guess";
 import { RelativeGuess } from "../logic/Guess";
 import { RelativeGuessIcon } from "./RelativeGuessIcon";
+import downloadIcon from "../assets/game icons/download.png";
 import lengthIcon from "../assets/game icons/length.png";
 import likeIcon from "../assets/game icons/like.png";
 
@@ -43,7 +44,7 @@ export default function StatsResultView({
         guess={result.length}
       />
       <StatResultView
-        icon={<p>Down</p>}
+        icon={<img src={downloadIcon} alt="Downloads" />}
         text={info.downloads.toString()}
         guess={result.downloads}
       />
