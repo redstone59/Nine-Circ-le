@@ -2,6 +2,7 @@ import ColouredBox from "./ColouredBox";
 import { Difficulty } from "../logic/NineCirclesLevel";
 import { RelativeGuess } from "../logic/Guess";
 import { RelativeGuessIcon } from "./RelativeGuessIcon";
+import autoDifficultyIcon from "../assets/difficulties/auto.png";
 import easyDemonDifficultyIcon from "../assets/difficulties/demon easy.png";
 import easyDifficultyIcon from "../assets/difficulties/easy.png";
 import extremeDemonDifficultyIcon from "../assets/difficulties/demon extreme.png";
@@ -15,7 +16,7 @@ import normalDifficultyIcon from "../assets/difficulties/normal.png";
 import otherDifficultyIcon from "../assets/difficulties/na.png";
 
 const difficultyIcons: { [Key in Difficulty]: string } = {
-  Auto: otherDifficultyIcon,
+  Auto: autoDifficultyIcon,
   Easy: easyDifficultyIcon,
   Normal: normalDifficultyIcon,
   Hard: hardDifficultyIcon,
@@ -34,6 +35,7 @@ export default function DifficultyResultView({
   guess: RelativeGuess;
   difficulty: Difficulty;
 }) {
+  // yanky can you add checking so then it will add n/a face (otherDifficultyIcon) if the difficulty is weird
   return (
     <ColouredBox className="grid grid-cols-2 justify-items-center border-2 border-solid">
       <p className="col-span-2">Difficulty</p>
