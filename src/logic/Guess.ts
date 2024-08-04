@@ -14,16 +14,23 @@ type GuessResults = {
 };
 
 function isCorrectGuess(guess: GuessResults): boolean {
-  if (!guess.colourScheme[0] || 
-    (guess.colourScheme[0] !== guess.colourScheme[1])
+  if (
+    !guess.colourScheme[0] ||
+    guess.colourScheme[0] !== guess.colourScheme[1]
   ) {
     return false;
   }
 
   // The bottom could be unravelled to be more readable.
   let key: string;
-  const objectKeys: string[] = ["difficulty", "length", "downloads", "likes", "objectCount"];
-  
+  const objectKeys: string[] = [
+    "difficulty",
+    "length",
+    "downloads",
+    "likes",
+    "objectCount",
+  ];
+
   for (key of objectKeys) {
     if (guess[key] !== RelativeGuess.CORRECT) {
       return false;
@@ -33,4 +40,4 @@ function isCorrectGuess(guess: GuessResults): boolean {
   return true;
 }
 
-export { RelativeGuess, type GuessResults, isCorrectGuess };
+export { RelativeGuess, type GuessResults as GuessResult, isCorrectGuess };

@@ -19,7 +19,7 @@ enum Colour {
   PLAYER_COLOUR_2,
 }
 
-const difficultyRanks: string[] = [
+const difficultyRanks = [
   "Auto",
   "Easy",
   "Normal",
@@ -31,17 +31,19 @@ const difficultyRanks: string[] = [
   "Hard Demon",
   "Insane Demon",
   "Extreme Demon",
-];
+] as const;
 
-const lengthRanks: string[] = ["Short", "Medium", "Long", "XL"];
+type Difficulty = (typeof difficultyRanks)[number];
 
-type Length = "Short" | "Medium" | "Long" | "XL";
+const lengthRanks = ["Short", "Medium", "Long", "XL"] as const;
+
+type Length = (typeof lengthRanks)[number];
 type Rating = "Rate" | "Feature" | "Epic" | "Legendary" | "Mythic";
 
 type APIInformation = {
   name: string;
   description: string;
-  difficulty: string;
+  difficulty: Difficulty;
   stars: number;
   length: Length;
   downloads: number;
@@ -58,12 +60,16 @@ type NineCirclesLevel = {
   //  image: [yanqui this is where you put the react image type]
 };
 
+type FullLevelInfo = NineCirclesLevel & APIInformation;
+
 export {
   Colour,
   difficultyRanks,
+  type Difficulty,
   lengthRanks,
   type APIInformation,
   type NineCirclesLevel,
   type Length,
-  type Rating
+  type Rating,
+  type FullLevelInfo,
 };

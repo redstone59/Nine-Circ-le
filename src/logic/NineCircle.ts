@@ -6,7 +6,7 @@ import {
   APIInformation,
   Colour,
 } from "./NineCirclesLevel";
-import { GuessResults, RelativeGuess } from "./Guess";
+import { GuessResult, RelativeGuess } from "./Guess";
 import { levelToday } from "./RandomisedLevels";
 import * as api from "./FakeAPI";
 
@@ -64,7 +64,7 @@ class NineCircle {
     this.information = getLevelInformation(randomLevelId);
   }
 
-  async guessLevel(levelName: string): Promise<GuessResults> {
+  async guessLevel(levelName: string): Promise<GuessResult> {
     if (!(levelName in nameToIdObj)) {
       throw new TypeError("Level " + levelName + " is not in the level list.");
     }
@@ -81,7 +81,7 @@ class NineCircle {
   private getLevelResults(
     non_api: NineCirclesLevel,
     api: APIInformation
-  ): GuessResults {
+  ): GuessResult {
     return {
       colourScheme: evaluateColours(
         non_api.colourScheme,

@@ -1,32 +1,41 @@
 import { useState } from "react";
 
-import { GuessResults } from "../logic/Guess";
+import { allLevels, nameToIdObj } from "../logic/AllLevels";
+import { GuessResult } from "../logic/Guess";
 import { NineCircle } from "../logic/NineCircle";
-import GuessResultsView from "./GuessResultsView";
+import GuessResultView from "./GuessResultView";
+import { downloadedAPIInfo } from "../logic/FakeAPIInformation";
+import { FullLevelInfo } from "../logic/NineCirclesLevel";
 
 const game = new NineCircle();
 
 export default function Game() {
-  const [guess, setGuess] = useState("");
-  const [guesses, setGuesses] = useState<GuessResults[]>([]);
+  const [nameGuess, setNameGuess] = useState("");
+  const [guesses, setGuesses] = useState<[FullLevelInfo, GuessResult][]>([]);
 
   return (
     <>
       <form
         onSubmit={async (e) => {
           e.preventDefault();
-          setGuesses([await game.guessLevel(guess), ...guesses]);
+          const levelId = nameToIdObj[nameGuess].toString();
+          const levelInfo: FullLevelInfo = {
+            ...downloadedAPIInfo[levelId],
+            ...allLevels[levelId],
+          };
+          const guessResult = await game.guessLevel(nameGuess);
+          setGuesses([[levelInfo, guessResult], ...guesses]);
         }}
       >
         <input
           name="guess"
-          value={guess}
-          onChange={(e) => setGuess(e.target.value)}
+          value={nameGuess}
+          onChange={(e) => setNameGuess(e.target.value)}
         ></input>
         <button type="submit">Submit</button>
       </form>
       {guesses.map((g) => (
-        <GuessResultsView result={g} />
+        <GuessResultView info={g[0]} result={g[1]} />
       ))}
     </>
   );
