@@ -28,7 +28,11 @@ function idFromReadable(level: ReadableLevel): number {
             readable.name == level.name &&
             readable.publisher == level.publisher
         ) {
-            return parseInt(id);
+            let potentialId: number = parseInt(id);
+            if (isNaN(potentialId)) {
+                break; // just so i dont have two `return -1`s
+            }
+            return potentialId;
         }
     }
     
