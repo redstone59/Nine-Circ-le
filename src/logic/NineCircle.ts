@@ -8,6 +8,10 @@ import {
 } from "./NineCirclesLevel";
 import { GuessResult, RelativeGuess } from "./Guess";
 import { levelToday } from "./RandomisedLevels";
+import { 
+  ReadableLevel, 
+  idFromReadable
+} from "./ReadableLevel";
 import * as api from "./FakeAPI";
 
 function evaluateColours(
@@ -76,6 +80,22 @@ class NineCircle {
       getNineCirclesLevel(levelId),
       guessedInformation
     );
+  }
+
+  async guessReadableLevel(level: ReadableLevel): Promise<GuessResult> {
+    const id: number = idFromReadable(level);
+    if (id === -1) {
+      throw new TypeError(
+        "Level " + level.name + " by " + level.publisher + " is not in the level list."
+        );
+    }
+
+    const guessedInformation: APIInformation = getLevelInformation(id);
+
+    return this.getLevelResults(
+      getNineCirclesLevel(id),
+      guessedInformation
+    )
   }
 
   private getLevelResults(
