@@ -618,11 +618,6 @@ const allLevels: {[key: string]: NineCirclesLevel} = {
         creators: ['APTeamButAwesome', 'zNotNinja'],
         verifier: null,
     },
-    '106646765': {  // Centipede
-        colourScheme: [Colour.GREEN, Colour.GREEN],
-        creators: ['ThyBlackRose, TheSh1mm3r, McSuckenstein, timatimo4ka, zander12, tofu, zXc DeKaY, Pakins, Jesuscon, greezer, LordVadercraft'],
-        verifier: null,
-    },
     '3151283': {  // Beginning of Colours
         colourScheme: [Colour.MULTICOLOUR, Colour.MULTICOLOUR],
         creators: ['Captain Jack'],
@@ -1112,7 +1107,6 @@ const nameToIdObj: {[key: string]: number} = {
     "Crackhead Circles": 95524621,
     "It really circles": 99246761,
     "Sonic Wave Unlimited": 102265892,
-    "Centipede": 106646765,
     "Beginning of Colours": 3151283,
     "vesuve": 3472006,
     "new stereo madness": 5256745,
