@@ -12,12 +12,13 @@ export default function GuessResultView({
   result: GuessResult;
 }) {
   return (
-    <div className="grid grid-cols-3">
+    <div className="m-auto grid aspect-[3] w-2/3 grid-cols-3 grid-rows-[1fr_1fr_3fr] place-items-center border border-black">
       <p className="col-span-3">{info.name}</p>
       <p className="col-span-3">{info.creators.join(", ")}</p>
       <DifficultyResultView
         guess={result.difficulty}
         difficulty={info.difficulty}
+        rating={info.ratingType}
       />
       <ColoursResultView
         colours={info.colourScheme}

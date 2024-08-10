@@ -1,11 +1,11 @@
-import { useState } from "react";
-
 import { allLevels, nameToIdObj } from "../logic/AllLevels";
-import { GuessResult } from "../logic/Guess";
-import { NineCircle } from "../logic/NineCircle";
-import GuessResultView from "./GuessResultView";
-import { downloadedAPIInfo } from "../logic/FakeAPIInformation";
+
 import { FullLevelInfo } from "../logic/NineCirclesLevel";
+import { GuessResult } from "../logic/Guess";
+import GuessResultView from "./GuessResultView";
+import { NineCircle } from "../logic/NineCircle";
+import { downloadedAPIInfo } from "../logic/FakeAPIInformation";
+import { useState } from "react";
 
 const game = new NineCircle();
 

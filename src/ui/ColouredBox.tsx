@@ -1,5 +1,4 @@
 import React from "react";
-import clsx from "clsx";
 
 export default function ColouredBox({
   className,
@@ -9,6 +8,6 @@ export default function ColouredBox({
   children: React.ReactNode;
 }) {
   return (
-    <div className={clsx(className, "bg-dark-red rounded")}>{children}</div>
+    <div className={`${className} rounded-xl bg-dark-red`}>{children}</div>
   );
 }

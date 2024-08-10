@@ -1,4 +1,5 @@
 import { Colour } from "../logic/NineCirclesLevel";
+import ColouredBox from "./ColouredBox";
 import checkmarkIcon from "../assets/game icons/checkmark.png";
 import xIcon from "../assets/game icons/the everything app.png";
 
@@ -28,9 +29,9 @@ export default function ColoursResultView({
   coloursResult: [boolean, boolean];
 }) {
   return (
-    <div className="flex flex-col">
+    <ColouredBox className="flex flex-col">
       <ColourResultView colourGuess={[colours[0], coloursResult[0]]} />
       <ColourResultView colourGuess={[colours[1], coloursResult[1]]} />
-    </div>
+    </ColouredBox>
   );
 }
