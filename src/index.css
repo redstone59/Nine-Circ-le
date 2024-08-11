@@ -6,3 +6,12 @@
   font-family: "Pusab";
   src: local("Pusab"), url("assets/PUSAB.otf");
 }
+
+@layer base {
+  p {
+    color: white;
+    paint-order: stroke;
+    -webkit-text-stroke: 4px black;
+    text-wrap: wrap;
+  }
+}
