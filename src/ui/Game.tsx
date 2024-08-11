@@ -14,7 +14,7 @@ export default function Game() {
   const [guesses, setGuesses] = useState<[FullLevelInfo, GuessResult][]>([]);
 
   return (
-    <>
+    <div className="flex flex-col items-center">
       <form
         onSubmit={async (e) => {
           e.preventDefault();
@@ -28,6 +28,7 @@ export default function Game() {
         }}
       >
         <input
+          className="border border-black"
           name="guess"
           value={nameGuess}
           onChange={(e) => setNameGuess(e.target.value)}
@@ -37,6 +38,6 @@ export default function Game() {
       {guesses.map((g) => (
         <GuessResultView info={g[0]} result={g[1]} />
       ))}
-    </>
+    </div>
   );
 }

@@ -1,12 +1,13 @@
 import { Colour } from "../logic/NineCirclesLevel";
 import ColouredBox from "./ColouredBox";
+import Icon from "./Icon";
 import checkmarkIcon from "../assets/game icons/checkmark.png";
 import xIcon from "../assets/game icons/the everything app.png";
 
 function BooleanIcon({ bool }: { bool: boolean }) {
   const src = bool ? checkmarkIcon : xIcon;
   const alt = bool ? "Checkmark" : "X";
-  return <img src={src} alt={alt} />;
+  return <Icon src={src} alt={alt} />;
 }
 
 function ColourResultView({ colourGuess }: { colourGuess: [Colour, boolean] }) {
@@ -14,7 +15,7 @@ function ColourResultView({ colourGuess }: { colourGuess: [Colour, boolean] }) {
   colourName = colourName[0].toUpperCase() + colourName.slice(1);
 
   return (
-    <div className="flex">
+    <div className="flex items-center justify-between gap-1">
       <p>{colourName}</p>
       <BooleanIcon bool={colourGuess[1]} />
     </div>

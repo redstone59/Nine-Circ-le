@@ -12,9 +12,9 @@ export default function GuessResultView({
   result: GuessResult;
 }) {
   return (
-    <div className="m-auto grid aspect-[3] w-2/3 grid-cols-3 grid-rows-[1fr_1fr_3fr] place-items-center border border-black">
-      <p className="col-span-3">{info.name}</p>
-      <p className="col-span-3">{info.creators.join(", ")}</p>
+    <div className="grid aspect-[3] w-2/3 grid-cols-3 grid-rows-[1fr_1fr_5fr] place-items-center border border-black p-2">
+      <p className="col-span-3 text-5xl">{info.name}</p>
+      <p className="col-span-3 text-3xl">{info.creators.join(", ")}</p>
       <DifficultyResultView
         guess={result.difficulty}
         difficulty={info.difficulty}

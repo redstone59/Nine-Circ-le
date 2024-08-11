@@ -1,3 +1,4 @@
+import Icon from "./Icon";
 import { RelativeGuess } from "../logic/Guess";
 import checkmarkIcon from "../assets/game icons/checkmark.png";
 import clsx from "clsx";
@@ -23,7 +24,7 @@ export function RelativeGuessIcon({
       break;
   }
   return (
-    <img
+    <Icon
       className={clsx(
         className,
         guess == RelativeGuess.HIGHER && "scale-y-[-1]",

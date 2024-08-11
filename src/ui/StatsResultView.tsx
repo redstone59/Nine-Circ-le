@@ -1,5 +1,7 @@
+import ColouredBox from "./ColouredBox";
 import { FullLevelInfo } from "../logic/NineCirclesLevel";
 import { GuessResult } from "../logic/Guess";
+import Icon from "./Icon";
 import { RelativeGuess } from "../logic/Guess";
 import { RelativeGuessIcon } from "./RelativeGuessIcon";
 import downloadIcon from "../assets/game icons/download.png";
@@ -16,7 +18,7 @@ function StatResultView({
   guess: RelativeGuess;
 }) {
   return (
-    <div className="flex">
+    <div className="flex items-center justify-between gap-1">
       {icon}
       <p>{text}</p>
       <RelativeGuessIcon guess={guess} />
@@ -32,27 +34,27 @@ export default function StatsResultView({
   result: GuessResult;
 }) {
   return (
-    <div className="flex flex-col">
+    <ColouredBox className="flex flex-col">
       <StatResultView
         icon={<p>Obj</p>}
         text={info.objectCount.toString()}
         guess={result.objectCount}
       />
       <StatResultView
-        icon={<img src={lengthIcon} alt="Length" />}
+        icon={<Icon src={lengthIcon} alt="Length" />}
         text={info.length}
         guess={result.length}
       />
       <StatResultView
-        icon={<img src={downloadIcon} alt="Downloads" />}
+        icon={<Icon src={downloadIcon} alt="Downloads" />}
         text={info.downloads.toString()}
         guess={result.downloads}
       />
       <StatResultView
-        icon={<img src={likeIcon} alt="Likes" />}
+        icon={<Icon src={likeIcon} alt="Likes" />}
         text={info.likes.toString()}
         guess={result.likes}
       />
-    </div>
+    </ColouredBox>
   );
 }
