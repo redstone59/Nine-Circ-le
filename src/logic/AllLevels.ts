@@ -2,7 +2,7 @@
 
 import { NineCirclesLevel, Colour } from "./NineCirclesLevel";
 
-const allLevels: {[key: string]: NineCirclesLevel} = {
+const allLevels = {
     '4284013': {  // Nine Circles
         colourScheme: [Colour.RED, Colour.BLACK],
         creators: ['Zobros'],
@@ -983,6 +983,12 @@ const allLevels: {[key: string]: NineCirclesLevel} = {
         creators: ['xepheron'],
         verifier: null,
     },
+} as const satisfies {
+    [id: string]: {
+        colourScheme: [Colour, Colour];
+        creators: string[];
+        verifier: string | null;
+    };
 };
 
 const nameToIdObj: {[key: string]: number} = {
