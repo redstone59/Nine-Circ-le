@@ -1,6 +1,6 @@
 import noThumbnailImage from "../assets/no thumbnail.png";
 
-async function getLevelThumbnail(levelId: number | string): string {
+async function getLevelThumbnail(levelId: number | string): Promise<string> {
     if (typeof levelId === 'number') {
         levelId = levelId.toString();
     }
