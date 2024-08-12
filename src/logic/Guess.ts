@@ -22,8 +22,7 @@ function isCorrectGuess(guess: GuessResults): boolean {
   }
 
   // The bottom could be unravelled to be more readable.
-  let key: string;
-  const objectKeys: string[] = [
+  const objectKeys: (keyof GuessResults)[] = [
     "difficulty",
     "length",
     "downloads",
@@ -31,7 +30,7 @@ function isCorrectGuess(guess: GuessResults): boolean {
     "objectCount",
   ];
 
-  for (key of objectKeys) {
+  for (const key of objectKeys) {
     if (guess[key] !== RelativeGuess.CORRECT) {
       return false;
     }

@@ -22,7 +22,7 @@ i = 1
 with open("./src/logic/FakeAPIInformation.ts", "w") as file:
     file.write("// Generated with the `scrape_api.py` file. Please don't modify this file directly!\n\n")
     file.write('import { APIInformation, Rating, Length } from "./NineCirclesLevel";\n\n')
-    file.write('const downloadedAPIInfo: {[key: string]: APIInformation} = {\n')
+    file.write('const downloadedAPIInfo: {[Id in keyof typeof allLevels]: APIInformation} = {\n')
     
     for column in columns:
         entries = column.split("\t")

@@ -27,13 +27,7 @@ with open("./src/logic/AllLevels.ts", "w") as output:
         
         level_name_dict[level_data["name"]] = level_data["level_id"]
     
-    output.write("} as const satisfies {\n")
-    output.write("    [id: string]: {\n")
-    output.write("        colourScheme: [Colour, Colour];\n")
-    output.write("        creators: string[];\n")
-    output.write("        verifier: string | null;\n")
-    output.write("    };\n")
-    output.write("};\n\n")
+    output.write("} as const satisfies {[id: string]: NineCirclesLevel}")
     
     output.write('const nameToIdObj: {[key: string]: number} = {\n')
 
