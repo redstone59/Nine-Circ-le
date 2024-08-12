@@ -61,7 +61,7 @@ export default function DifficultyResultView({
         backgroundSrc={ratingIcons[rating]}
       />
       <RelativeGuessIcon className="row-span-2" guess={guess} />
-      <p>{difficulty}</p>
+      <p className="text-center">{difficulty}</p>
     </ColouredBox>
   );
 }
