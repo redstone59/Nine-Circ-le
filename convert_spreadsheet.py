@@ -12,7 +12,7 @@ with open("./src/logic/AllLevels.ts", "w") as output:
     level_name_dict = {}
     output.write("// Generated with `convert_spreadsheet.py`. Please don't modify this file directly!\n\n")
     output.write('import { NineCirclesLevel, Colour } from "./NineCirclesLevel";\n\n')
-    output.write("const allLevels = {\n")
+    output.write("const allLevels: {[id: string]: NineCirclesLevel} = {\n")
     
     for column in columns:
         entries = column.split("\t")
@@ -27,7 +27,7 @@ with open("./src/logic/AllLevels.ts", "w") as output:
         
         level_name_dict[level_data["name"]] = level_data["level_id"]
     
-    output.write("} as const satisfies {[id: string]: NineCirclesLevel}")
+    output.write("} as const")
     
     output.write('const nameToIdObj: {[key: string]: number} = {\n')
 
