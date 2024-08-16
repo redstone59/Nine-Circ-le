@@ -11,7 +11,9 @@ async function getLevelThumbnail(levelId: number | string): Promise<string> {
     ".png?raw=true";
   const response: Response = await fetch(api_url);
 
-  return response.ok ? api_url : noThumbnailImage;
+  const image_url = "https://github.com/cdc-sys/level-thumbnails/blob/main/thumbs/" + levelId + ".png?raw=true";
+
+  return response.ok ? image_url : noThumbnailImage;
 }
 
 export { getLevelThumbnail };
