@@ -73,7 +73,7 @@ export default function Game() {
                 value={id}
                 className="data-[focus]:bg-red-100"
               >
-                {l.name} ({l.creators.join(", ")})
+                {l.name} ({l.creators[0]})
               </ComboboxOption>
             ))}
           </ComboboxOptions>
