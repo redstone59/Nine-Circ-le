@@ -1,5 +1,5 @@
 import { SeedableRNG } from "./SeedableRNG";
-import { nameToIdObj } from "./AllLevels";
+import { downloadedAPIInfo } from "./FakeAPIInformation";
 
 function daysSinceNewYear(): number {
     const currentDate: Date = new Date();
@@ -26,8 +26,8 @@ function shuffle<Type>(array: Type[]): Type[] {
     return shuffledList;
 }
 
-const levelNames: string[] = Object.keys(nameToIdObj);
+const levelIds: string[] = Object.keys(downloadedAPIInfo);
 
-const levelToday: string = shuffle(levelNames)[daysSinceNewYear() % 183]
+const levelToday: string = shuffle(levelIds)[daysSinceNewYear() % 183]
 
 export { levelToday }

@@ -1,4 +1,4 @@
-import { allLevels, nameToIdObj } from "./AllLevels";
+import { allLevels } from "./AllLevels";
 import {
   NineCirclesLevel,
   difficultyRanks,
@@ -62,12 +62,13 @@ class NineCircle {
   information: APIInformation;
 
   constructor() {
-    const randomLevelId = nameToIdObj[levelToday];
+    const randomLevelId = parseInt(levelToday);
 
     this.level = allLevels[randomLevelId];
     this.information = getLevelInformation(randomLevelId);
   }
 
+  /*
   async guessLevel(levelName: string): Promise<GuessResult> {
     if (!(levelName in nameToIdObj)) {
       throw new TypeError("Level " + levelName + " is not in the level list.");
@@ -81,6 +82,7 @@ class NineCircle {
       guessedInformation
     );
   }
+  */
 
   async guessReadableLevel(level: ReadableLevel): Promise<GuessResult> {
     const id: number = idFromReadable(level);
