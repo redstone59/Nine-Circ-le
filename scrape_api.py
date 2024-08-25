@@ -122,4 +122,4 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         
         print("\n", end = "", flush = True)
     
-    file.write("} satisfies {[Id in keyof typeof allLevels]: APIInformation}\n\nexport { downloadedAPIInfo }")
+    file.write("}")

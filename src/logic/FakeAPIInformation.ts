@@ -2,8 +2,6 @@
 
 import { APIInformation, Length, Rating } from "./NineCirclesLevel";
 
-import { allLevels } from "./AllLevels";
-
 const downloadedAPIInfo: { [id: string]: APIInformation } = {
   "4284013": {
     name: `Nine Circles`,
@@ -2161,6 +2159,6 @@ const downloadedAPIInfo: { [id: string]: APIInformation } = {
     objectCount: 40097,
     ratingType: "Feature" as Rating,
   },
-} satisfies { [Id in keyof typeof allLevels]: APIInformation };
+};
 
 export { downloadedAPIInfo };
