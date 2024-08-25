@@ -4,7 +4,7 @@ enum RelativeGuess {
   LOWER,
 }
 
-type GuessResults = {
+type GuessResult = {
   colourScheme: [boolean, boolean];
   difficulty: RelativeGuess;
   length: RelativeGuess;
@@ -13,7 +13,7 @@ type GuessResults = {
   objectCount: RelativeGuess;
 };
 
-function isCorrectGuess(guess: GuessResults): boolean {
+function isCorrectGuess(guess: GuessResult): boolean {
   if (
     !guess.colourScheme[0] ||
     guess.colourScheme[0] !== guess.colourScheme[1]
@@ -22,7 +22,7 @@ function isCorrectGuess(guess: GuessResults): boolean {
   }
 
   // The bottom could be unravelled to be more readable.
-  const objectKeys: (keyof GuessResults)[] = [
+  const objectKeys: (keyof GuessResult)[] = [
     "difficulty",
     "length",
     "downloads",
@@ -39,4 +39,4 @@ function isCorrectGuess(guess: GuessResults): boolean {
   return true;
 }
 
-export { RelativeGuess, type GuessResults as GuessResult, isCorrectGuess };
+export { RelativeGuess, type GuessResult, isCorrectGuess };
