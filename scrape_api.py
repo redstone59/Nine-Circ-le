@@ -21,7 +21,7 @@ COLUMN_NAMES = ["name", "release_version", "colour_1", "colour_2", "screenshot",
 i = 1
 with open("./src/logic/FakeAPIInformation.ts", "w") as file:
     file.write("// Generated with the `scrape_api.py` file. Please don't modify this file directly!\n\n")
-    file.write('import { APIInformation, Rating, Length } from "./NineCirclesLevel";\n\nimport { allLevels } from "./AllLevels\n\n')
+    file.write('import { APIInformation, Rating, Length } from "./NineCirclesLevel"\n\n')
     file.write('const downloadedAPIInfo: {[id: string]: APIInformation} = {\n')
     
     for column in columns:
@@ -123,3 +123,5 @@ with open("./src/logic/FakeAPIInformation.ts", "w") as file:
         print("\n", end = "", flush = True)
     
     file.write("}")
+    
+    file.write("\n\nexport { downloadedAPIInfo };")
