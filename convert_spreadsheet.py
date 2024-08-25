@@ -28,10 +28,5 @@ with open("./src/logic/AllLevels.ts", "w") as output:
         level_name_dict[level_data["name"]] = level_data["level_id"]
     
     output.write("} as const")
-    
-    output.write('const nameToIdObj: {[key: string]: number} = {\n')
 
-    for key in level_name_dict:
-        output.write(f'    "{key}": {level_name_dict[key]},\n')
-
-    output.write("}\n\nexport { allLevels, nameToIdObj }")
+    output.write("\n\nexport { allLevels }")
