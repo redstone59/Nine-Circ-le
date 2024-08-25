@@ -81,7 +81,12 @@ export default function Game() {
         <button type="submit">Submit</button>
       </form>
       {guesses.map((g) => (
-        <GuessResultView key={g[0]} info={fullLevelInfos[g[0]]} result={g[1]} />
+        <GuessResultView
+          key={g[0]}
+          info={fullLevelInfos[g[0]]}
+          result={g[1]}
+          id={g[0]}
+        />
       ))}
     </div>
   );
