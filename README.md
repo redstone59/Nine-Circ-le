@@ -1,4 +1,8 @@
-# Nine Circ-le
+<div style="align:center">
+  <img src="https://github.com/redstone59/Nine-Circ-le/blob/main/nine%20circle%20readme%20logo.png?raw=true" alt="Nine CircLe logo">
+</div>
+<hr>
+
 A Geometry Dash -le game, inspired by [Balatrodle](https://www.balatrodle.com/), where you have to guess the randomly chosen Nine Circles clone of the day.
 
 Created by redstone59 (idea, backend) and [Yanqui](https://github.com/yanqui-uxo) (frontend),
