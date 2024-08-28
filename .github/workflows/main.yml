@@ -2,6 +2,8 @@ name: Update Fake API Information
 on:
   schedule:
   - cron: "0 0 * * 4"
+  workflow_dispatch:
+
 jobs:
   clone:
     name: clone repository
