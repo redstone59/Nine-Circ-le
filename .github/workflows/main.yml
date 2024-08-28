@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-22.04
     needs: [clone]
     steps:
+      - run: sudo add-apt-repository ppa:deadsnakes/ppa
       - run: sudo apt-get install -y python3.12
   scrape_api:
     name: run scrape api file
