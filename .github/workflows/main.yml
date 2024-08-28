@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-22.04
     needs: [python]
     steps:
-      - run: python ./scrape_api.py
+      - run: python scrape_api.py
   push:
     name: commit and push changes
     runs-on: ubuntu-22.04
