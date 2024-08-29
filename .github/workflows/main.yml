@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  clone:
+  update_info:
     name: clone repository
     runs-on: ubuntu-22.04
     steps:
@@ -13,25 +13,12 @@ jobs:
         uses: actions/checkout@v4
       - run: |
              ls ${{ github.workspace }}
-  python:
-    name: install python
-    runs-on: ubuntu-22.04
-    needs: [clone]
-    steps:
-      - run: sudo add-apt-repository ppa:deadsnakes/ppa
+      - name: install python
+        run: sudo add-apt-repository ppa:deadsnakes/ppa
       - run: sudo apt-get install -y python3.12
-  scrape_api:
-    name: run scrape api file
-    runs-on: ubuntu-22.04
-    needs: [python]
-    steps:
-      - run: cd ${{ github.workspace }}
-      - run: python scrape_api.py
-  push:
-    name: commit and push changes
-    runs-on: ubuntu-22.04
-    needs: [scrape_api]
-    steps:
-      - run: git add .
+      - name: run scrape api file
+        run: python scrape_api.py
+      - name: commit and push changes
+        run: git add .
       - run: git commit -am "Automatically update fake API information"
       - run: git push
