@@ -1,0 +1,196 @@
+Nine Circles	1.9	Red	Black		4284013		Zobros
+Fairydust	1.9	Purple	Black		5310094		mkComic
+The Realistic	1.9	Yellow	Black		6664095		softable
+Figures	1.9	Red	Pink		6892453		Glittershroom
+Jawbreaker	1.9	Blue	Black		6939821		ZenthicAlpha
+Astronaut 13	1.9	Black	Black		6988264		Minesap
+Headrush	1.9	White	Black		6996731	MaxiS9	Toxic
+classic	1.9	Green	Black		7002072		VERSU5
+Silhouette	1.9	Green	Green		7018102	Smokes	Havok
+Poltergeist	1.9	Grey	Black		7054561		Andromeda
+Problematic	1.9	Green	Cyan		7116121		Dhafin
+Classical	1.9	Grey	Black	(previously Hot Pink)	7203561		Hakkou
+Classical	1.9	Cyan	Cyan		7294616		RayOriens
+Evil	1.9	Blue	Cyan		7614092	SrGuillester	Deaychawoo
+Fear Me	1.9	Cyan	Cyan		7705437		CrisPy Dash
+Down Bass	1.9	Green	Green		8147005		Spectra
+fractured circles	1.9	Pink	Pink		8418966		artimiel
+Sine Wavs	1.9	Green	Green		8723596		Dorami
+sharp	1.9	Player Colour 1	Player Colour 2		9603387		kaval
+Butterfly Effect	1.9	Cyan	Cyan		9608518		Linco
+Golden Hope	1.9	Yellow	Yellow		9682304		Terron
+Crimson Clutter	1.9	Red	Red		9700312		RedUniverse
+Space Circles	1.9	Brown	Brown		9864147		SUOMI
+Paracosm Circles	1.9	Indigo	Purple		10197026	Leksitoo	N1XO
+Sharp Minor	1.9	Yellow	Yellow		10312917		Giron + ASonicMen
+Catastrophic	1.9	Green	Green		10789222		Lalter
+Sweet Dreams	1.9	Purple	Purple		10807587		Zeus9
+Windy Circles	1.9	Multicoloured / Rainbow	White		10890011		KeiAs
+Solar Circles	1.9	Orange	Orange		10972106		D4rkGryf
+Planet Circles	2.0	Black	Grey		11346695		Liccho + xSolar
+Ultra Paracosm	2.0	Purple	Purple		11588490		Rulas
+Frozen Jawbreaker	2.0	Cyan	Cyan		12070173	Pacosky18	ItzMika + CloverPhoenix
+Ultra Fairydust	2.0	Pink	Purple		12073525		Rulas
+Crying Souls	2.0	Green	Red		12423506		knobbelboy
+Ultra Circles	2.0	Red	Orange		12568393		Rulas
+infinite circles	2.0	Red	Red		13037894		startor
+infinite circles v2	2.0	Red	Red		13114485		GMDomy
+The RealistiK	2.0	Yellow	Yellow		13501597		SeveranceD
+Infernity	2.0	Orange	Orange		13530154		Jo2000
+SuperNova	2.0	Cyan	Green		13575944		Motu
+Antique Circles	2.0	Orange	Orange		13641664		LmAnubis
+Nine Circles XII	2.0	Red	Red		13703326		Rustam
+Ultimate Circles	2.0	Multicoloured / Rainbow	Multicoloured / Rainbow		13704546		SUOMI
+Retro Circles	2.0	Green	Black		14000484		Nacho21
+Invisible Light	2.0	Grey	White		14019412		Nacho21
+Circulatum	2.0	Red	Red		14030404		Avelinz + Xaverious
+AnotherCircles	2.0	Red	Red		14309230	Xiodazer	Zyzyx
+Quasar	2.0	Blue	Blue		14321727		Allan
+Paracosm XII	2.0	Purple	Purple		14960319		FaKob
+Blacklight	2.0	Yellow	Black		17796070	Maudanik	Pan
+Astronaut 13	2.0	Cyan	Cyan		20785077		Dzeser + VERSU5
+Future Circles	2.0	Multicoloured / Rainbow	Multicoloured / Rainbow		21306256		KeiAs
+Trump Circles	2.0	Multicoloured / Rainbow	Multicoloured / Rainbow		26245696		Rlol + Axxorz + Moufi, Gibbon + Darwin + TiTi
+Flat Major	2.0	Black	Yellow		26441161		EndLevel + JakeSJ + Metalface221
+Sonic Wave	2.0	Blue	Indigo		26681070	Sunix	Cyclic
+Bausha Vortex	2.1	Violet	Purple		30380566	JakeSJ	Pennutoh
+The Secret Box	2.1	Red	Multicoloured / Rainbow		33405303		Metalface221
+pulsar	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		36099108		Akari + Shiryuu7
+Nine CircleX	2.1	Red	Orange		36522386	MaxiS9	Viprin + Zobros + Rustam
+Power	2.1	Blue	Indigo		36831819		ToxYc + Netrin
+Poltergeist Reborn	2.1	Grey	Red		36886759	ThePrimeEvil	Pennutoh
+Mujigae	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		38765979		YGYoshi
+Despacito Circles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		39495014	Luqualizer	Terron + Darwin + Kips
+Undergound	2.1	Violet	Purple	[sic]	41409797		Metalface221
+Hyper Paracosm	2.1	Indigo	Purple		42117203	Dr. Joe	ViRuZ + ItzMika
+Abandoned Planet	2.1	Indigo	Red	[has 3 colors]	46249401		Metalface221
+Tengu Wind	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		47853491		Shemo
+Bakuretsu	2.1	Pink	Purple	[has 3 colors]	48435217	Khayangan	Fairfax + RehanZ
+Generic Wave	2.1	Blue	Cyan		49576382	Mullsy	Pennutoh + Enlex
+End Line	2.1	Orange	Black		49901047		dongchi
+Arctic Lights	2.1	Purple	Purple		52919433	Metalface221	Metalface221 + ViRuZ + EndLevel
+Balengu Vortex	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		55385816		Temp + ItsHybrid + HJfod
+Hue Effect	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		57395071		Zoroa
+Nine Paws	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		57410372	MrSpaghetti	Maxyland + Furix + Irving Soluble + Abdula + DaxFan + DHaner + Subzell + Liepard + DubsC
+Azurite	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow	(previously blue)	59533451		royen
+Aquatic Auroras	2.1	Cyan	Black		60740290	Kyoto	EndLevel + El3cTr0 + Lime
+Astronaut 14	2.1	Black	White		60960827	Prayoga	SirZaiss + Alfian10
+Hateful Reflection	2.1	Red	Red		61132346	Demented	Iris + Skrypto + YoonsrDynamix
+Hyper Paradox	2.1	Indigo	Purple		61531210	Kapinapi	ItsHybrid + El3cTr0 + Avati + ViralDl + SyQual + ConVet + Temp
+Broken Reality	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		62133870	Alphanetic	Zerenity
+Tenth Circle	2.1	White	Multicoloured / Rainbow		62592746	Blitz	DeniPol + NormDanchik
+Sparkling Hope	2.1	Pink	Indigo		62923992	Timo	Vadi
+Fnafbass	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		63842337	Fawxu	The181 + ThatKai
+Zacarias	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		64612787	Mxteus	vit12 + Itocp + Jhemyson + babaca + ZrKiphal + HugoLA + Kaminarix + Nidro + BioHistoria + LChaseR + Starlink + Sage + Ivanpercie + jvsTSX
+Meteoric Debris	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		64902117		Shemo
+Apollo 13	2.1	Black	Black		65046970		Metalface221
+Molten Core	2.1	Red	Red		68414488	ViewSonic	janucha
+Sonic Wave Rebirth	2.1	Indigo	Blue		68688849	Moosh	Serponge + FunnyGame
+Sonic Wave Infinity	2.1	Blue	Black		69685815	Xanii	APTeam + Riot
+Friday Vortex	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		69871779		Cersia + Declan + GrenadeOfTacos
+Falling Stars	2.1	Indigo	Blue		72011288	Perlite	nyseoul
+In Cargill	2.1	Grey	Multicoloured / Rainbow		72449577	Sley	LP44
+ZXCircleS	2.1	Red	White		72810041		Wintter
+Cosmic Cyclone	2.1	Blue	Blue		76159410	DoSh7t	APTeam + Riot + Cyclic + Shiryuu7 + Sunix
+Sakupen Circles	2.1	Red	Orange		76962930	Diamond	Nick24 + Muffy450 + DrCuber + korewa + Renn241 + Mzero + Endevvor + NineDice + GhostVandalf
+Ratio Circles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		77132030		ch4rlie03
+SemiCircles	2.1	Cyan	Indigo	turquoise should be a color i think	78964835		MisterBean
+flea	2.1	White	White		79182381		Subwoofer
+HamDuck Vortex	2.1	Green	Yellow		79489649	Bleamer	kr1j
+Mehdi	1.9	Green	Multicoloured / Rainbow	1.9 gdps level	79862130		Carminius
+The Hallucination	2.1	Indigo	Black		81139702		SyQual + VoTcHi
+Through The Aether	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		81748963		BibbyDib111
+Cat Planet	2.1	Blue	Purple		84766628		IcEDCave
+Fishbass	2.1	Green	Green		86565813	IcyTerra	fishbass
+Carp Minor	2.1	Yellow	Yellow		87353798	snowkeo	fishbass
+cerebral hemorrhage	2.1	Blue	Blue		88853479		NateFH
+ACCELERATOR	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		88873060		Rustere
+FIREPOWER	2.1	Red	Yellow	red/orange/yellow	89876243		Sillow
+The Mines Circles	2.1	Grey	Grey		90222644		royen + Demented + Great + HenryDS + Functionxd + Silver + GrenadeofTacos + PlasmaShock + Monti + Jakalope
+Solar Flare	2.1	Orange	Orange		90390075	Swiborg	Linear + Rynoxious
+Haywire	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		94179418		Mega0of
+Psychedelic Circles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		94547076		spuddles
+tipo B	2.1	Red	Red		94563744		classic10
+Ten Circles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		94591693		NormDanchik
+Nomostros Cosmos	2.1	Indigo	Purple		94591772		GamerKnight750
+After Image	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		94595730		ColinT
+Spacetime Error	2.1	Blue	Red	three colors	94599528		MAYEROSA
+Ring Trick	2.1	Red	Orange	red/orange/brown	94610370		Zoroa
+Astrophobia	2.1	Indigo	Purple		94772024		Jakalope + royen + Valentlne
+Bete Noire	2.1	Blue	Cyan		95255152	Diamond	ThePurgatory115 + GhostVandalf
+Crackhead Circles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow	2.2 update	95524621	teraaa	AlrexX
+It really circles	2.2	White	Multicoloured / Rainbow	actually 2.2	99246761		EnenzoGD
+Sonic Wave Unlimited	2.2	Blue	Cyan		102265892		APTeamButAwesome + zNotNinja
+Beginning of Colours	1.9	Multicoloured / Rainbow	Multicoloured / Rainbow	NON-DEMONS START	3151283		Captain Jack
+vesuve	1.9	Red	Red		3472006		pineapple
+new stereo madness	1.9	Red	Blue	red/blue/purple	5256745		pineapple
+Chaoz Devotion	1.9	Red	Yellow		5753157		TheRealMhike
+If 9 Circles was Lv1	1.9	Red	Red		6361170		Rockstr99
+If Fairydust was L1	1.9	Purple	Purple		6877843		MorpheiX
+the realistik v2	1.9	Orange	Orange		6977311		Irika
+Nine caveS	1.9	Multicoloured / Rainbow	Multicoloured / Rainbow		7083373		BIGMAC77
+lightsaber battle	1.9	Multicoloured / Rainbow	Multicoloured / Rainbow		7203798		Jcglasser
+Dark matter	1.9	Red	Red		8112546		Semispace + AzA
+classical	1.9	Green	Blue	three colors	8331090		d4sh3r
+Dual Extreme	1.9	Red	Multicoloured / Rainbow		8725630		Poli
+Autosonic	1.9	Grey	Multicoloured / Rainbow		8883107		Solidized
+For The Taking	1.9	Indigo	Purple		9315108		DylChill616 + CloverPhoenix + Chillius
+Rising Circles	1.9	Magenta	Magenta		9803621		TrigoniX01
+dorabaebasic10	1.9	Multicoloured / Rainbow	Multicoloured / Rainbow		10125163		Dorabae
+Eighto Circles	1.9	Pink	Pink		10155484		Bamkii
+platforms of dusk	1.9	Grey	Pink	gray/tan/pink	10238245		jomax23
+Popcorn	1.9	Green	Yellow		10966402		Toto
+Drop Out	2.0	Cyan	Black		11335866		mrvector2003
+astronaut circles	2.0	Red	Multicoloured / Rainbow		11813101		matt88
+Kirby Circle	2.0	Pink	Pink		11816658		VegasKoneko
+Friday Night	2.0	Multicoloured / Rainbow	Multicoloured / Rainbow		11918033		Megaman9
+Entrance	2.0	Black	Grey		11951127		Dimen
+Reality	2.0	Blue	Blue		11953778		MeVv
+HeartBreaker	2.0	Pink	Pink		11958784		NukeNacho
+Xenogenesis	2.0	Red	Multicoloured / Rainbow		12239617		Streeetkyt
+If Jawbreaker Was L1	2.0	Blue	Blue		12300295		SUOMI
+If Sonic Wave was L1	2.0	Indigo	Blue		12341888		CrisPy Dash
+Industrial Abyss	2.0	Grey	Grey		12902542		araoro
+dubsteps	2.0	Black	White		13073860		SlashGH
+FAYRDUST	2.0	Purple	Purple		13433184		ZukulentoO
+if infinite c was l1	2.0	Red	Red		13524580		startor
+Mlg Swag Circles	2.0	Green	Red	green/yellow/red (swag)	13699667		JKM + Krulig
+Genesis	2.0	Red	Green		13920616		TheRealSalad
+Future Circles	2.0	Cyan	Cyan		14160096		Milesman34
+a mixed of colors	2.0	Yellow	Red	three colors	14374201		xexeelpro
+The Screamroom	2.0	Red	Grey		15798818		Goodbye GD
+Altereffect	2.0	Purple	Multicoloured / Rainbow		16723365	NucleusCore34	Laminer
+Machina	2.0	Red	Red	pale red	21900647		Desx74
+Technological Meadow	2.1	Blue	Purple		53515815		DYSCO
+Moonbeam	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		61529537		Buine12
+Hurbanovo	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		66077698		ImSamo
+Holy Balls a solO	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		68944287		Moffer
+Dimensional	2.1	White	Multicoloured / Rainbow		71950911		Nemsy
+misty circles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		72258485		bunch
+iPhone Redux	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		72383395		TwisterDude161
+Crocles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		72423358		BridgetTheCroco
+Joshua Vortex	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		72498415		JustJohn
+Sadge	2.1	Blue	Pink	purple/blue/pink	72807796		GiggsRH
+PAHCles	2.1	Blue	Pink	three colors	72942759		BridgetTheCroco
+Valk	2.1	Blue	Orange		73240485		GDMazii
+AboR DebanK	2.1	Green	Blue	three colors	73460770		Alasstor
+Zen	2.1	Orange	Orange		74724111		GDMazii
+Sparkscles	2.1	Red	Yellow		75323912		BridgetTheCroco
+Star rain	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		75361742		Aquarelas
+Triple A	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		75731172		Jaxxn + Bowtie
+Zaana	2.1	Pink	Pink		77695213		GDMazii
+Umbra Lev lathan	2.1	Grey	Multicoloured / Rainbow	rainbow is optional	78446820		Renn241
+Generic wave iii	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		78743399		The Goola + NukeIIX + Kreno + Jaxz + Deex3 + Sparkendary + Alasstor + Reinncloud
+6534	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		78936509		CTJustSpam
+Nine Circles	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		79188336		Xoroz
+Dubby wave	2.1	Green	Purple		80725458		CloverPhoenix
+Whats Good	2.1	Red	Multicoloured / Rainbow		82980620		iFuse
+Groovy Circles	2.1	Blue	Multicoloured / Rainbow		84155605		TheNoWeeker
+Infinity BASICIRCLES	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		85853040		Marryhun
+Spectral Nebula	2.1	Indigo	White		85979871		Tenu + Jordi6304
+Downward Spiral	2.1	Blue	Pink	three colors	88051670		Umbraleviathan
+Chapter of Time	2.1	Pink	Multicoloured / Rainbow		93375725		azubh
+Western VorteX	2.1	Multicoloured / Rainbow	Multicoloured / Rainbow		95109514		Pwohna
+messiers Twin B	2.2	Indigo	Blue		103370684		instinct5706a
+absolute NINE CIRCLE	2.2	Multicoloured / Rainbow	Multicoloured / Rainbow		106040563		xepheron
+absolute JAWBREAKER	2.2	Multicoloured / Rainbow	Multicoloured / Rainbow		106237782		xepheron
