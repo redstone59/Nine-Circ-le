@@ -1,7 +1,7 @@
 name: Update Fake API Information
 on:
   schedule:
-  - cron: "0 0 * * 4"
+  - cron: "0 0 * * 1,3,5"
   workflow_dispatch:
 
 jobs:
@@ -24,8 +24,7 @@ jobs:
     runs-on: ubuntu-22.04
     needs: [python]
     steps:
-      - run: ls ${{ github.workspace }} |
-          echo
+      - run: cd ${{ github.workspace }}
       - run: python scrape_api.py
   push:
     name: commit and push changes
