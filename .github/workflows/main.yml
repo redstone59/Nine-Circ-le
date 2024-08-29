@@ -17,7 +17,7 @@ jobs:
         run: sudo add-apt-repository ppa:deadsnakes/ppa
       - run: sudo apt-get install -y python3.12
       - name: run scrape api file
-        run: python3 scrape_api.py
+        run: python3.12 scrape_api.py
       - name: commit and push changes
         run: git add .
       - run: git commit -am "Automatically update fake API information"
