@@ -24,8 +24,8 @@ jobs:
     runs-on: ubuntu-22.04
     needs: [python]
     steps:
-      - run: |
-          ls ${{ github.workspace }}
+      - run: ls ${{ github.workspace }} |
+          echo
       - run: python scrape_api.py
   push:
     name: commit and push changes
