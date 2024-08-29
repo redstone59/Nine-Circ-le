@@ -11,7 +11,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: cd ${{ github.workspace }}
+      - run: |
+             ls ${{ github.workspace }}
   python:
     name: install python
     runs-on: ubuntu-22.04
