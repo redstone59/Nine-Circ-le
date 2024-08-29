@@ -9,7 +9,9 @@ jobs:
     name: clone repository
     runs-on: ubuntu-22.04
     steps:
-      - run: git clone https://github.com/redstone59/Nine-Circ-le
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: cd ${{ github.workspace }}
   python:
     name: install python
     runs-on: ubuntu-22.04
