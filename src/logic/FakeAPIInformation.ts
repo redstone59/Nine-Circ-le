@@ -9,8 +9,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 56430672,
-        likes: 3050829,
+        downloads: 56433098,
+        likes: 3050933,
         objectCount: 14895,
         ratingType: 'Feature' as Rating
     },
@@ -20,8 +20,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 7188625,
-        likes: 396905,
+        downloads: 7188939,
+        likes: 396914,
         objectCount: 10970,
         ratingType: 'Feature' as Rating
     },
@@ -31,7 +31,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 935027,
+        downloads: 935049,
         likes: 92618,
         objectCount: 18784,
         ratingType: 'Feature' as Rating
@@ -42,8 +42,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1722775,
-        likes: 144242,
+        downloads: 1722832,
+        likes: 144245,
         objectCount: 7057,
         ratingType: 'Feature' as Rating
     },
@@ -53,8 +53,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 11810889,
-        likes: 657227,
+        downloads: 11811403,
+        likes: 657242,
         objectCount: 10811,
         ratingType: 'Feature' as Rating
     },
@@ -64,8 +64,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1307046,
-        likes: 101405,
+        downloads: 1307080,
+        likes: 101406,
         objectCount: 13820,
         ratingType: 'Feature' as Rating
     },
@@ -75,8 +75,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 295311,
-        likes: 33475,
+        downloads: 295318,
+        likes: 33476,
         objectCount: 12529,
         ratingType: 'Feature' as Rating
     },
@@ -86,7 +86,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 369526,
+        downloads: 369532,
         likes: 30080,
         objectCount: 9149,
         ratingType: 'Feature' as Rating
@@ -97,8 +97,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 451609,
-        likes: 40353,
+        downloads: 451636,
+        likes: 40354,
         objectCount: 11304,
         ratingType: 'Feature' as Rating
     },
@@ -108,8 +108,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 6530481,
-        likes: 335895,
+        downloads: 6530807,
+        likes: 335905,
         objectCount: 14872,
         ratingType: 'Feature' as Rating
     },
@@ -119,8 +119,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 19074718,
-        likes: 1038035,
+        downloads: 19075344,
+        likes: 1038059,
         objectCount: 8463,
         ratingType: 'Feature' as Rating
     },
@@ -130,8 +130,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 292823,
-        likes: 22160,
+        downloads: 292836,
+        likes: 22161,
         objectCount: 11711,
         ratingType: 'Feature' as Rating
     },
@@ -141,7 +141,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 128721,
+        downloads: 128726,
         likes: 5677,
         objectCount: 14689,
         ratingType: 'Feature' as Rating
@@ -152,7 +152,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 220925,
+        downloads: 220931,
         likes: 26222,
         objectCount: 20748,
         ratingType: 'Feature' as Rating
@@ -163,7 +163,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1513445,
+        downloads: 1513481,
         likes: 139717,
         objectCount: 14342,
         ratingType: 'Feature' as Rating
@@ -174,7 +174,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 2811733,
+        downloads: 2811824,
         likes: 128263,
         objectCount: 16605,
         ratingType: 'Feature' as Rating
@@ -185,8 +185,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 847701,
-        likes: 82225,
+        downloads: 847719,
+        likes: 82228,
         objectCount: 9632,
         ratingType: 'Feature' as Rating
     },
@@ -196,8 +196,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 595390,
-        likes: 39870,
+        downloads: 595421,
+        likes: 39871,
         objectCount: 14338,
         ratingType: 'Feature' as Rating
     },
@@ -207,7 +207,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 300913,
+        downloads: 300916,
         likes: 19836,
         objectCount: 13770,
         ratingType: 'Feature' as Rating
@@ -218,8 +218,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 814852,
-        likes: 70990,
+        downloads: 814878,
+        likes: 70993,
         objectCount: 17672,
         ratingType: 'Feature' as Rating
     },
@@ -229,7 +229,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 437001,
+        downloads: 437025,
         likes: 34897,
         objectCount: 17668,
         ratingType: 'Feature' as Rating
@@ -240,7 +240,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1207787,
+        downloads: 1207826,
         likes: 76542,
         objectCount: 10829,
         ratingType: 'Feature' as Rating
@@ -251,8 +251,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1183215,
-        likes: 95042,
+        downloads: 1183254,
+        likes: 95044,
         objectCount: 9921,
         ratingType: 'Feature' as Rating
     },
@@ -262,8 +262,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Medium' as Length,
-        downloads: 5774693,
-        likes: 276999,
+        downloads: 5774882,
+        likes: 277004,
         objectCount: 15234,
         ratingType: 'Feature' as Rating
     },
@@ -273,8 +273,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 466701,
-        likes: 37639,
+        downloads: 466713,
+        likes: 37638,
         objectCount: 17429,
         ratingType: 'Feature' as Rating
     },
@@ -284,8 +284,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 218304,
-        likes: 15046,
+        downloads: 218308,
+        likes: 15047,
         objectCount: 18890,
         ratingType: 'Feature' as Rating
     },
@@ -295,8 +295,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 226709,
-        likes: 18632,
+        downloads: 226717,
+        likes: 18633,
         objectCount: 9978,
         ratingType: 'Feature' as Rating
     },
@@ -306,7 +306,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 638683,
+        downloads: 638710,
         likes: 35052,
         objectCount: 10926,
         ratingType: 'Feature' as Rating
@@ -317,8 +317,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 319190,
-        likes: 35492,
+        downloads: 319208,
+        likes: 35493,
         objectCount: 12945,
         ratingType: 'Feature' as Rating
     },
@@ -328,8 +328,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 153562,
-        likes: 11091,
+        downloads: 153571,
+        likes: 11092,
         objectCount: 16441,
         ratingType: 'Feature' as Rating
     },
@@ -339,8 +339,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 13382370,
-        likes: 835761,
+        downloads: 13382907,
+        likes: 835786,
         objectCount: 21737,
         ratingType: 'Feature' as Rating
     },
@@ -350,8 +350,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 50044,
-        likes: 3656,
+        downloads: 50045,
+        likes: 3657,
         objectCount: 28827,
         ratingType: 'Feature' as Rating
     },
@@ -361,7 +361,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 725626,
+        downloads: 725641,
         likes: 65738,
         objectCount: 24416,
         ratingType: 'Feature' as Rating
@@ -372,8 +372,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 443253,
-        likes: 32877,
+        downloads: 443264,
+        likes: 32878,
         objectCount: 25949,
         ratingType: 'Feature' as Rating
     },
@@ -383,7 +383,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 722718,
+        downloads: 722741,
         likes: 44941,
         objectCount: 26658,
         ratingType: 'Feature' as Rating
@@ -394,8 +394,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 8131516,
-        likes: 467042,
+        downloads: 8131755,
+        likes: 467050,
         objectCount: 10649,
         ratingType: 'Feature' as Rating
     },
@@ -405,7 +405,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 488580,
+        downloads: 488590,
         likes: 25603,
         objectCount: 17999,
         ratingType: 'Feature' as Rating
@@ -416,7 +416,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 107680,
+        downloads: 107681,
         likes: 7650,
         objectCount: 19539,
         ratingType: 'Feature' as Rating
@@ -427,7 +427,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 208051,
+        downloads: 208055,
         likes: 22381,
         objectCount: 41798,
         ratingType: 'Feature' as Rating
@@ -438,7 +438,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 245575,
+        downloads: 245580,
         likes: 15546,
         objectCount: 16150,
         ratingType: 'Feature' as Rating
@@ -449,7 +449,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 192070,
+        downloads: 192073,
         likes: 17978,
         objectCount: 17682,
         ratingType: 'Feature' as Rating
@@ -460,8 +460,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 3615647,
-        likes: 140588,
+        downloads: 3615793,
+        likes: 140589,
         objectCount: 19406,
         ratingType: 'Feature' as Rating
     },
@@ -471,8 +471,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 3260437,
-        likes: 233197,
+        downloads: 3260527,
+        likes: 233198,
         objectCount: 17096,
         ratingType: 'Feature' as Rating
     },
@@ -482,8 +482,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 9543248,
-        likes: 628267,
+        downloads: 9543704,
+        likes: 628286,
         objectCount: 44823,
         ratingType: 'Feature' as Rating
     },
@@ -493,7 +493,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1140466,
+        downloads: 1140510,
         likes: 98279,
         objectCount: 20697,
         ratingType: 'Feature' as Rating
@@ -504,7 +504,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 98880,
+        downloads: 98884,
         likes: 13518,
         objectCount: 29909,
         ratingType: 'Feature' as Rating
@@ -515,7 +515,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 298067,
+        downloads: 298075,
         likes: 35051,
         objectCount: 15276,
         ratingType: 'Feature' as Rating
@@ -526,7 +526,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 214238,
+        downloads: 214242,
         likes: 22408,
         objectCount: 30456,
         ratingType: 'Feature' as Rating
@@ -537,7 +537,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 164251,
+        downloads: 164252,
         likes: 11495,
         objectCount: 17497,
         ratingType: 'Feature' as Rating
@@ -548,8 +548,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 164170,
-        likes: 15720,
+        downloads: 164194,
+        likes: 15721,
         objectCount: 44526,
         ratingType: 'Feature' as Rating
     },
@@ -559,8 +559,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 44599,
-        likes: 3437,
+        downloads: 44600,
+        likes: 3438,
         objectCount: 12041,
         ratingType: 'Feature' as Rating
     },
@@ -570,7 +570,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 559182,
+        downloads: 559199,
         likes: 37201,
         objectCount: 29058,
         ratingType: 'Feature' as Rating
@@ -581,8 +581,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 4577968,
-        likes: 279059,
+        downloads: 4578128,
+        likes: 279065,
         objectCount: 46409,
         ratingType: 'Feature' as Rating
     },
@@ -592,8 +592,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Medium' as Length,
-        downloads: 857476,
-        likes: 50966,
+        downloads: 857500,
+        likes: 50968,
         objectCount: 28840,
         ratingType: 'Feature' as Rating
     },
@@ -603,8 +603,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 25940016,
-        likes: 840842,
+        downloads: 25941076,
+        likes: 840858,
         objectCount: 23158,
         ratingType: 'Feature' as Rating
     },
@@ -614,7 +614,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 926283,
+        downloads: 926305,
         likes: 52491,
         objectCount: 27052,
         ratingType: 'Feature' as Rating
@@ -625,7 +625,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 772760,
+        downloads: 772779,
         likes: 49694,
         objectCount: 27239,
         ratingType: 'Feature' as Rating
@@ -636,8 +636,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1200184,
-        likes: 152663,
+        downloads: 1200223,
+        likes: 152665,
         objectCount: 67391,
         ratingType: 'Epic' as Rating
     },
@@ -647,8 +647,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 2954844,
-        likes: 129219,
+        downloads: 2954953,
+        likes: 129222,
         objectCount: 67852,
         ratingType: 'Epic' as Rating
     },
@@ -658,8 +658,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 61261,
-        likes: 3962,
+        downloads: 61282,
+        likes: 3961,
         objectCount: 44743,
         ratingType: 'Feature' as Rating
     },
@@ -669,7 +669,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 257225,
+        downloads: 257238,
         likes: 10166,
         objectCount: 27556,
         ratingType: 'Feature' as Rating
@@ -680,7 +680,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 124110,
+        downloads: 124114,
         likes: 5593,
         objectCount: 111250,
         ratingType: 'Feature' as Rating
@@ -691,8 +691,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 278523,
-        likes: 20315,
+        downloads: 278530,
+        likes: 20316,
         objectCount: 30781,
         ratingType: 'Feature' as Rating
     },
@@ -702,7 +702,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 47007,
+        downloads: 47009,
         likes: 3131,
         objectCount: 30424,
         ratingType: 'Feature' as Rating
@@ -713,7 +713,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 426728,
+        downloads: 426742,
         likes: 26912,
         objectCount: 41951,
         ratingType: 'Feature' as Rating
@@ -724,7 +724,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 75931,
+        downloads: 75935,
         likes: 4217,
         objectCount: 63767,
         ratingType: 'Feature' as Rating
@@ -735,7 +735,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 85247,
+        downloads: 85250,
         likes: 9078,
         objectCount: 39257,
         ratingType: 'Feature' as Rating
@@ -746,7 +746,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 36984,
+        downloads: 36986,
         likes: 3331,
         objectCount: 66873,
         ratingType: 'Feature' as Rating
@@ -757,7 +757,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 374061,
+        downloads: 374078,
         likes: 11835,
         objectCount: 108259,
         ratingType: 'Feature' as Rating
@@ -768,8 +768,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 71055,
-        likes: 6286,
+        downloads: 71079,
+        likes: 6290,
         objectCount: 26001,
         ratingType: 'Feature' as Rating
     },
@@ -779,7 +779,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 449480,
+        downloads: 449495,
         likes: 17794,
         objectCount: 44596,
         ratingType: 'Feature' as Rating
@@ -790,7 +790,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 168259,
+        downloads: 168267,
         likes: 8244,
         objectCount: 59982,
         ratingType: 'Feature' as Rating
@@ -801,8 +801,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 643234,
-        likes: 44887,
+        downloads: 643250,
+        likes: 44888,
         objectCount: 36964,
         ratingType: 'Feature' as Rating
     },
@@ -812,8 +812,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 266158,
-        likes: 16510,
+        downloads: 266168,
+        likes: 16511,
         objectCount: 108080,
         ratingType: 'Epic' as Rating
     },
@@ -823,7 +823,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 124132,
+        downloads: 124145,
         likes: 3971,
         objectCount: 110460,
         ratingType: 'Feature' as Rating
@@ -834,7 +834,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 238047,
+        downloads: 238060,
         likes: 9712,
         objectCount: 92188,
         ratingType: 'Feature' as Rating
@@ -845,7 +845,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 54041,
+        downloads: 54043,
         likes: 2795,
         objectCount: 59047,
         ratingType: 'Feature' as Rating
@@ -856,7 +856,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 121456,
+        downloads: 121459,
         likes: 6858,
         objectCount: 81293,
         ratingType: 'Feature' as Rating
@@ -867,7 +867,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 148343,
+        downloads: 148356,
         likes: 5623,
         objectCount: 78241,
         ratingType: 'Feature' as Rating
@@ -878,7 +878,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 77873,
+        downloads: 77879,
         likes: 5414,
         objectCount: 58670,
         ratingType: 'Feature' as Rating
@@ -889,8 +889,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 434027,
-        likes: 19549,
+        downloads: 434050,
+        likes: 19550,
         objectCount: 84423,
         ratingType: 'Epic' as Rating
     },
@@ -900,7 +900,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 81082,
+        downloads: 81088,
         likes: 7641,
         objectCount: 69490,
         ratingType: 'Feature' as Rating
@@ -911,8 +911,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 165461,
-        likes: 6880,
+        downloads: 165468,
+        likes: 6881,
         objectCount: 40173,
         ratingType: 'Feature' as Rating
     },
@@ -922,7 +922,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 75128,
+        downloads: 75133,
         likes: 7352,
         objectCount: 116552,
         ratingType: 'Feature' as Rating
@@ -933,7 +933,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 43292,
+        downloads: 43298,
         likes: 2893,
         objectCount: 47609,
         ratingType: 'Feature' as Rating
@@ -944,8 +944,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 64280,
-        likes: 2791,
+        downloads: 64281,
+        likes: 2792,
         objectCount: 41114,
         ratingType: 'Feature' as Rating
     },
@@ -955,7 +955,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 124149,
+        downloads: 124154,
         likes: 5127,
         objectCount: 68868,
         ratingType: 'Feature' as Rating
@@ -966,8 +966,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 1811224,
-        likes: 46852,
+        downloads: 1811316,
+        likes: 46854,
         objectCount: 52483,
         ratingType: 'Epic' as Rating
     },
@@ -977,8 +977,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 2309072,
-        likes: 85146,
+        downloads: 2309210,
+        likes: 85150,
         objectCount: 247025,
         ratingType: 'Feature' as Rating
     },
@@ -988,7 +988,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 60210,
+        downloads: 60213,
         likes: 2365,
         objectCount: 49341,
         ratingType: 'Feature' as Rating
@@ -999,7 +999,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 43639,
+        downloads: 43640,
         likes: 2096,
         objectCount: 91101,
         ratingType: 'Feature' as Rating
@@ -1021,7 +1021,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 1592647,
+        downloads: 1592677,
         likes: 118528,
         objectCount: 35716,
         ratingType: 'Feature' as Rating
@@ -1032,7 +1032,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 294003,
+        downloads: 294021,
         likes: 15667,
         objectCount: 211998,
         ratingType: 'Feature' as Rating
@@ -1043,8 +1043,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Medium' as Length,
-        downloads: 4416936,
-        likes: 159101,
+        downloads: 4417287,
+        likes: 159118,
         objectCount: 69056,
         ratingType: 'Feature' as Rating
     },
@@ -1054,8 +1054,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Medium' as Length,
-        downloads: 526768,
-        likes: 34327,
+        downloads: 526861,
+        likes: 34333,
         objectCount: 24980,
         ratingType: 'Feature' as Rating
     },
@@ -1065,7 +1065,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 58436,
+        downloads: 58440,
         likes: 4756,
         objectCount: 32058,
         ratingType: 'Feature' as Rating
@@ -1076,7 +1076,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Medium' as Length,
-        downloads: 195010,
+        downloads: 195021,
         likes: 9357,
         objectCount: 42024,
         ratingType: 'Feature' as Rating
@@ -1087,7 +1087,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 56931,
+        downloads: 56936,
         likes: 4807,
         objectCount: 86752,
         ratingType: 'Feature' as Rating
@@ -1109,7 +1109,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 248797,
+        downloads: 248816,
         likes: 12251,
         objectCount: 159615,
         ratingType: 'Feature' as Rating
@@ -1131,8 +1131,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 346377,
-        likes: 11860,
+        downloads: 346411,
+        likes: 11861,
         objectCount: 35552,
         ratingType: 'Feature' as Rating
     },
@@ -1142,8 +1142,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 92606,
-        likes: 4869,
+        downloads: 92609,
+        likes: 4870,
         objectCount: 57332,
         ratingType: 'Feature' as Rating
     },
@@ -1153,8 +1153,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 51427,
-        likes: 2853,
+        downloads: 51429,
+        likes: 2854,
         objectCount: 76449,
         ratingType: 'Feature' as Rating
     },
@@ -1164,7 +1164,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 42658,
+        downloads: 42662,
         likes: 1581,
         objectCount: 97164,
         ratingType: 'Feature' as Rating
@@ -1175,7 +1175,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 149406,
+        downloads: 149407,
         likes: 7899,
         objectCount: 69852,
         ratingType: 'Epic' as Rating
@@ -1186,7 +1186,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 100033,
+        downloads: 100038,
         likes: 4092,
         objectCount: 180000,
         ratingType: 'Epic' as Rating
@@ -1208,7 +1208,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 181213,
+        downloads: 181233,
         likes: 7796,
         objectCount: 68261,
         ratingType: 'Epic' as Rating
@@ -1219,7 +1219,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 46244,
+        downloads: 46246,
         likes: 3740,
         objectCount: 79983,
         ratingType: 'Epic' as Rating
@@ -1230,7 +1230,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 126907,
+        downloads: 126908,
         likes: 5295,
         objectCount: 134554,
         ratingType: 'Epic' as Rating
@@ -1241,7 +1241,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 80542,
+        downloads: 80546,
         likes: 7819,
         objectCount: 107187,
         ratingType: 'Feature' as Rating
@@ -1252,8 +1252,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 82883,
-        likes: 6174,
+        downloads: 82889,
+        likes: 6175,
         objectCount: 57482,
         ratingType: 'Feature' as Rating
     },
@@ -1263,8 +1263,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 113766,
-        likes: 7661,
+        downloads: 113768,
+        likes: 7662,
         objectCount: 99213,
         ratingType: 'Epic' as Rating
     },
@@ -1285,7 +1285,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Medium Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 80375,
+        downloads: 80379,
         likes: 7633,
         objectCount: 62257,
         ratingType: 'Feature' as Rating
@@ -1296,7 +1296,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 188377,
+        downloads: 188384,
         likes: 10085,
         objectCount: 119533,
         ratingType: 'Epic' as Rating
@@ -1307,7 +1307,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 30986,
+        downloads: 30994,
         likes: 1580,
         objectCount: 95658,
         ratingType: 'Feature' as Rating
@@ -1318,7 +1318,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 27438,
+        downloads: 27441,
         likes: 1459,
         objectCount: 129212,
         ratingType: 'Feature' as Rating
@@ -1329,7 +1329,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Extreme Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 61764,
+        downloads: 61773,
         likes: 2067,
         objectCount: 94815,
         ratingType: 'Feature' as Rating
@@ -1340,8 +1340,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy Demon',
         stars: 10,
         length: 'Long' as Length,
-        downloads: 51948,
-        likes: 2917,
+        downloads: 51953,
+        likes: 2916,
         objectCount: 49371,
         ratingType: 'Feature' as Rating
     },
@@ -1351,7 +1351,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane Demon',
         stars: 10,
         length: 'XL' as Length,
-        downloads: 157505,
+        downloads: 157543,
         likes: 8193,
         objectCount: 148805,
         ratingType: 'Feature' as Rating
@@ -1362,7 +1362,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Auto',
         stars: 1,
         length: 'Long' as Length,
-        downloads: 337880,
+        downloads: 337884,
         likes: 62387,
         objectCount: 13861,
         ratingType: 'Feature' as Rating
@@ -1373,7 +1373,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 40500,
+        downloads: 40501,
         likes: 4413,
         objectCount: 14431,
         ratingType: 'Feature' as Rating
@@ -1384,7 +1384,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard',
         stars: 4,
         length: 'Long' as Length,
-        downloads: 154077,
+        downloads: 154078,
         likes: 18507,
         objectCount: 20513,
         ratingType: 'Feature' as Rating
@@ -1406,8 +1406,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard',
         stars: 4,
         length: 'Long' as Length,
-        downloads: 2637023,
-        likes: 434505,
+        downloads: 2637050,
+        likes: 434507,
         objectCount: 8933,
         ratingType: 'Feature' as Rating
     },
@@ -1417,7 +1417,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Normal',
         stars: 3,
         length: 'Long' as Length,
-        downloads: 1198502,
+        downloads: 1198510,
         likes: 200229,
         objectCount: 11287,
         ratingType: 'Feature' as Rating
@@ -1428,8 +1428,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 99037,
-        likes: 9973,
+        downloads: 99039,
+        likes: 9974,
         objectCount: 13518,
         ratingType: 'Feature' as Rating
     },
@@ -1439,7 +1439,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 76828,
+        downloads: 76830,
         likes: 4823,
         objectCount: 22560,
         ratingType: 'Feature' as Rating
@@ -1450,7 +1450,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Auto',
         stars: 1,
         length: 'Long' as Length,
-        downloads: 272931,
+        downloads: 272933,
         likes: 53401,
         objectCount: 9339,
         ratingType: 'Feature' as Rating
@@ -1472,8 +1472,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 104822,
-        likes: 8224,
+        downloads: 104824,
+        likes: 8225,
         objectCount: 10550,
         ratingType: 'Feature' as Rating
     },
@@ -1483,8 +1483,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Auto',
         stars: 1,
         length: 'Long' as Length,
-        downloads: 204367,
-        likes: 24228,
+        downloads: 204379,
+        likes: 24229,
         objectCount: 15299,
         ratingType: 'Feature' as Rating
     },
@@ -1494,7 +1494,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Auto',
         stars: 1,
         length: 'Medium' as Length,
-        downloads: 601123,
+        downloads: 601136,
         likes: 70498,
         objectCount: 8998,
         ratingType: 'Feature' as Rating
@@ -1505,7 +1505,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 97752,
+        downloads: 97760,
         likes: 9582,
         objectCount: 10467,
         ratingType: 'Feature' as Rating
@@ -1516,8 +1516,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 240973,
-        likes: 35950,
+        downloads: 240976,
+        likes: 35951,
         objectCount: 10783,
         ratingType: 'Feature' as Rating
     },
@@ -1527,8 +1527,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 14241017,
-        likes: 821393,
+        downloads: 14241551,
+        likes: 821406,
         objectCount: 10014,
         ratingType: 'Feature' as Rating
     },
@@ -1538,8 +1538,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 7,
         length: 'Long' as Length,
-        downloads: 167328,
-        likes: 12358,
+        downloads: 167335,
+        likes: 12359,
         objectCount: 12702,
         ratingType: 'Feature' as Rating
     },
@@ -1549,7 +1549,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 7,
         length: 'Long' as Length,
-        downloads: 43036,
+        downloads: 43038,
         likes: 2138,
         objectCount: 17380,
         ratingType: 'Feature' as Rating
@@ -1560,7 +1560,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 88667,
+        downloads: 88669,
         likes: 5118,
         objectCount: 11927,
         ratingType: 'Feature' as Rating
@@ -1571,7 +1571,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 70031,
+        downloads: 70033,
         likes: 4628,
         objectCount: 12114,
         ratingType: 'Feature' as Rating
@@ -1582,7 +1582,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 7,
         length: 'Long' as Length,
-        downloads: 65322,
+        downloads: 65323,
         likes: 7578,
         objectCount: 8562,
         ratingType: 'Feature' as Rating
@@ -1593,7 +1593,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 6,
         length: 'Long' as Length,
-        downloads: 149666,
+        downloads: 149667,
         likes: 10229,
         objectCount: 15379,
         ratingType: 'Feature' as Rating
@@ -1626,7 +1626,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 23695,
+        downloads: 23696,
         likes: 2242,
         objectCount: 8321,
         ratingType: 'Feature' as Rating
@@ -1637,7 +1637,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 122842,
+        downloads: 122843,
         likes: 14521,
         objectCount: 9060,
         ratingType: 'Feature' as Rating
@@ -1648,7 +1648,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Auto',
         stars: 1,
         length: 'Long' as Length,
-        downloads: 584025,
+        downloads: 584028,
         likes: 89622,
         objectCount: 11092,
         ratingType: 'Feature' as Rating
@@ -1659,8 +1659,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Normal',
         stars: 3,
         length: 'Long' as Length,
-        downloads: 3254193,
-        likes: 473487,
+        downloads: 3254248,
+        likes: 473489,
         objectCount: 9528,
         ratingType: 'Feature' as Rating
     },
@@ -1670,8 +1670,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'XL' as Length,
-        downloads: 3846218,
-        likes: 239572,
+        downloads: 3846363,
+        likes: 239575,
         objectCount: 20854,
         ratingType: 'Feature' as Rating
     },
@@ -1692,7 +1692,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard',
         stars: 5,
         length: 'Long' as Length,
-        downloads: 461665,
+        downloads: 461667,
         likes: 68454,
         objectCount: 13413,
         ratingType: 'Feature' as Rating
@@ -1703,7 +1703,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 40448,
+        downloads: 40450,
         likes: 5583,
         objectCount: 8204,
         ratingType: 'Feature' as Rating
@@ -1714,7 +1714,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Normal',
         stars: 3,
         length: 'Long' as Length,
-        downloads: 315431,
+        downloads: 315434,
         likes: 53469,
         objectCount: 7595,
         ratingType: 'Feature' as Rating
@@ -1725,7 +1725,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Auto',
         stars: 1,
         length: 'Long' as Length,
-        downloads: 752575,
+        downloads: 752580,
         likes: 113112,
         objectCount: 33189,
         ratingType: 'Feature' as Rating
@@ -1736,7 +1736,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 185985,
+        downloads: 185986,
         likes: 19006,
         objectCount: 10002,
         ratingType: 'Feature' as Rating
@@ -1747,7 +1747,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 82800,
+        downloads: 82801,
         likes: 8080,
         objectCount: 14125,
         ratingType: 'Feature' as Rating
@@ -1769,7 +1769,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 50499,
+        downloads: 50500,
         likes: 4272,
         objectCount: 28970,
         ratingType: 'Feature' as Rating
@@ -1791,7 +1791,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Auto',
         stars: 1,
         length: 'Long' as Length,
-        downloads: 433720,
+        downloads: 433722,
         likes: 46525,
         objectCount: 12276,
         ratingType: 'Feature' as Rating
@@ -1846,8 +1846,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 439332,
-        likes: 34812,
+        downloads: 439344,
+        likes: 34813,
         objectCount: 20366,
         ratingType: 'Feature' as Rating
     },
@@ -1857,7 +1857,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 7,
         length: 'Long' as Length,
-        downloads: 259794,
+        downloads: 259796,
         likes: 32725,
         objectCount: 14632,
         ratingType: 'Feature' as Rating
@@ -1868,7 +1868,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Easy',
         stars: 2,
         length: 'Long' as Length,
-        downloads: 181064,
+        downloads: 181070,
         likes: 13978,
         objectCount: 49194,
         ratingType: 'Feature' as Rating
@@ -1880,7 +1880,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         stars: 4,
         length: 'Medium' as Length,
         downloads: 55861,
-        likes: 7694,
+        likes: 7693,
         objectCount: 24802,
         ratingType: 'Feature' as Rating
     },
@@ -1890,7 +1890,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 328562,
+        downloads: 328564,
         likes: 26370,
         objectCount: 58640,
         ratingType: 'Feature' as Rating
@@ -1901,7 +1901,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Normal',
         stars: 3,
         length: 'Long' as Length,
-        downloads: 38712,
+        downloads: 38713,
         likes: 4206,
         objectCount: 39645,
         ratingType: 'Feature' as Rating
@@ -1912,7 +1912,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Hard',
         stars: 5,
         length: 'Medium' as Length,
-        downloads: 68240,
+        downloads: 68241,
         likes: 8299,
         objectCount: 25456,
         ratingType: 'Feature' as Rating
@@ -1934,8 +1934,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 7,
         length: 'Medium' as Length,
-        downloads: 471514,
-        likes: 35795,
+        downloads: 471517,
+        likes: 35796,
         objectCount: 21884,
         ratingType: 'Feature' as Rating
     },
@@ -1945,7 +1945,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 6,
         length: 'Long' as Length,
-        downloads: 12720,
+        downloads: 12721,
         likes: 1857,
         objectCount: 28947,
         ratingType: 'Feature' as Rating
@@ -1989,7 +1989,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 34470,
+        downloads: 34471,
         likes: 3757,
         objectCount: 27089,
         ratingType: 'Feature' as Rating
@@ -2000,8 +2000,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 7,
         length: 'Long' as Length,
-        downloads: 261584,
-        likes: 29022,
+        downloads: 261585,
+        likes: 29023,
         objectCount: 27349,
         ratingType: 'Feature' as Rating
     },
@@ -2011,7 +2011,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 9,
         length: 'Long' as Length,
-        downloads: 58518,
+        downloads: 58520,
         likes: 4459,
         objectCount: 55633,
         ratingType: 'Feature' as Rating
@@ -2022,7 +2022,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 6,
         length: 'Medium' as Length,
-        downloads: 15074,
+        downloads: 15075,
         likes: 1386,
         objectCount: 31422,
         ratingType: 'Feature' as Rating
@@ -2033,8 +2033,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 167116,
-        likes: 11711,
+        downloads: 167130,
+        likes: 11710,
         objectCount: 35409,
         ratingType: 'Feature' as Rating
     },
@@ -2044,7 +2044,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 8608,
+        downloads: 8610,
         likes: 862,
         objectCount: 37748,
         ratingType: 'Feature' as Rating
@@ -2055,8 +2055,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Normal',
         stars: 3,
         length: 'Long' as Length,
-        downloads: 120523,
-        likes: 8641,
+        downloads: 120530,
+        likes: 8643,
         objectCount: 19186,
         ratingType: 'Feature' as Rating
     },
@@ -2077,7 +2077,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Harder',
         stars: 7,
         length: 'Long' as Length,
-        downloads: 26448,
+        downloads: 26449,
         likes: 2767,
         objectCount: 24743,
         ratingType: 'Feature' as Rating
@@ -2088,7 +2088,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 22909,
+        downloads: 22911,
         likes: 2257,
         objectCount: 40112,
         ratingType: 'Feature' as Rating
@@ -2132,7 +2132,7 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Medium' as Length,
-        downloads: 7711,
+        downloads: 7713,
         likes: 567,
         objectCount: 49695,
         ratingType: 'Feature' as Rating
@@ -2154,8 +2154,8 @@ const downloadedAPIInfo: {[id: string]: APIInformation} = {
         difficulty: 'Insane',
         stars: 8,
         length: 'Long' as Length,
-        downloads: 372599,
-        likes: 35057,
+        downloads: 372614,
+        likes: 35056,
         objectCount: 40097,
         ratingType: 'Feature' as Rating
     },
