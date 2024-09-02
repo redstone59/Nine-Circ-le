@@ -21,9 +21,9 @@ export default function GuessResultView({
     (async () => setThumbnailUrl(await getLevelThumbnail(id)))();
   }, [id]);
   return (
-    <div className="grid aspect-[3] w-2/3 grid-cols-4 grid-rows-[1fr_1fr_5fr] place-items-center border border-black p-2">
+    <div className="grid aspect-[5] w-11/12 grid-cols-4 grid-rows-[1fr_1fr_5fr] place-items-center border border-black p-2">
       <img
-        className="row-span-3 h-52 w-52 object-cover"
+        className="row-span-3 aspect-square w-full rounded object-cover"
         src={thumbnailUrl}
         alt={info.name}
       />

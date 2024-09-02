@@ -8,7 +8,13 @@
 }
 
 @layer base {
-  p {
+  html,
+  body,
+  div#root {
+    height: max(100%, auto);
+    width: 100%;
+  }
+  * {
     color: white;
     paint-order: stroke;
     -webkit-text-stroke: 4px black;
