@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+import ColouredBox from "./ColouredBox";
 import ColoursResultView from "./ColoursResultView";
 import DifficultyResultView from "./DifficultyResultView";
 import { FullLevelInfo } from "../logic/NineCirclesLevel";
@@ -21,12 +22,14 @@ export default function GuessResultView({
     (async () => setThumbnailUrl(await getLevelThumbnail(id)))();
   }, [id]);
   return (
-    <div className="grid aspect-[5] w-11/12 grid-cols-4 grid-rows-[1fr_1fr_5fr] place-items-center border border-black p-2">
-      <img
-        className="row-span-3 aspect-square w-full rounded object-cover"
-        src={thumbnailUrl}
-        alt={info.name}
-      />
+    <div className="grid aspect-[5] w-3/4 grid-cols-4 grid-rows-[1fr_1fr_5fr] place-items-center border border-black p-2">
+      <ColouredBox className="row-span-3 rounded">
+        <img
+          className="aspect-square w-full rounded object-cover"
+          src={thumbnailUrl}
+          alt={info.name}
+        />
+      </ColouredBox>
       <p className="col-span-3 text-5xl">{info.name}</p>
       <p className="col-span-3 text-3xl">{info.creators.join(", ")}</p>
       <DifficultyResultView

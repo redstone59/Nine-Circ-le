@@ -8,6 +8,6 @@ export default function ColouredBox({
   children: React.ReactNode;
 }) {
   return (
-    <div className={`${className} rounded-xl bg-dark-red p-2`}>{children}</div>
+    <div className={`rounded-xl bg-dark-red p-2 ${className}`}>{children}</div>
   );
 }

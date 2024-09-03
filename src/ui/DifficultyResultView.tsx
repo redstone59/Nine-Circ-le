@@ -53,7 +53,7 @@ export default function DifficultyResultView({
   rating: Rating;
 }) {
   return (
-    <ColouredBox className="place-item-center grid grid-cols-2 justify-items-center border-2 border-solid">
+    <ColouredBox className="place-item-center grid grid-cols-2 justify-items-center">
       <p className="col-span-2">Difficulty</p>
       <Icon
         src={difficultyIcons[difficulty] ?? otherDifficultyIcon}
