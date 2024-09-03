@@ -2,7 +2,7 @@ import Game from "./Game";
 
 export default function App() {
   return (
-    <div className="bg-[url('assets/widescreen_background.png')] bg-fixed font-standard text-3xl">
+    <div className="min-h-svh bg-[url('assets/widescreen_background.png')] bg-fixed font-standard text-3xl">
       <Game />
     </div>
   );

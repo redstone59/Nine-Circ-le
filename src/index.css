@@ -8,19 +8,9 @@
 }
 
 @layer base {
-  html,
-  body,
-  div#root,
-  div#root > div {
-    min-height: 100vh;
-    height: auto;
-    width: 100vw;
-  }
   * {
     color: white;
     paint-order: stroke;
     -webkit-text-stroke: 4px black;
-    text-wrap: wrap;
-    text-align: center;
   }
 }
