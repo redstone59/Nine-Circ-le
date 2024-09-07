@@ -63,6 +63,7 @@ export default function Game() {
       >
         <Combobox value={selectedId} onChange={setSelectedId}>
           <ComboboxInput<string>
+            className="bg-dark-red border-8 border-black rounded-lg"
             onChange={(e) => setNameQuery(e.target.value)}
             displayValue={(id) => filteredLevels[id]?.name}
           />
